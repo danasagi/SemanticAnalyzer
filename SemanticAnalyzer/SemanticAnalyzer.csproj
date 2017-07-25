@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArticleData.cs" />
+    <Compile Include="FileUtils.cs" />
     <Compile Include="Readers\SingleArticle.cs" />
     <Compile Include="Readers\ArticlesParser.cs" />
     <Compile Include="Consts.cs" />
