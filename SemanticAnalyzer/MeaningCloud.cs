@@ -9,7 +9,7 @@ using Newtonsoft.Json.Linq;
 
 namespace SemanticAnalyzer
 {
-    class MeaningCloud
+    public class MeaningCloud
     {
         public static void AnalyzeArticles(string source, List<string> textList)
         {
