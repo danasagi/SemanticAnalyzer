@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Security.Permissions;
 
 
 namespace SemanticAnalyzer
@@ -81,18 +82,53 @@ namespace SemanticAnalyzer
             }
         }
 
-        public static void UpdateSourcesBais(Dictionary<EntityKey, EntityValue> sourcesBais, string src, Sentiment articleSentiment)
+        public static void UpdateSourcesBais(Dictionary<EntityKey, EntityValue> sourcesBais, string src, Sentiment articleSentiments)
         {
-            //EntityKey key = null;
-            //EntityValue initValue = EntityValue(string name, string type, 0, 0, 0, 0, 0, 0);
-            //if (!(sourcesBais.ContainsKey(key))) //new entity
-            //{
-            //    sourcesBais.Add(key);
-            //}
-            //else 
-            //{
-            //    sourcesBais
-            //}
+            foreach (var articleSentiment in articleSentiments.EntitySentiments)
+            {
+                EntityKey key = new EntityKey(src, articleSentiment.Id);
+                EntityValue initValue = new EntityValue(articleSentiment.Name, articleSentiment.Type, 0, 0, 0, 0, 0, 0);
+                if (!(sourcesBais.ContainsKey(key))) //new entity
+                {
+                    sourcesBais.Add(key, initValue);
+                }
+                switch (articleSentiments.GeneralScore)
+                {
+                    case SentimentScore.StrongNegative:
+                        sourcesBais[key].NegativeGeneral++;
+                        break;
+                    case SentimentScore.Negative:
+                        sourcesBais[key].NegativeGeneral++;
+                        break;
+                    case SentimentScore.Neutral:
+                        sourcesBais[key].NuteralGeneral++;
+                        break;
+                    case SentimentScore.Positive:
+                        sourcesBais[key].PositiveGeneral++;
+                        break;
+                    case SentimentScore.StrongPositive:
+                        sourcesBais[key].PositiveGeneral++;
+                        break;
+                }
+                switch (articleSentiment.SpecificScore)
+                {
+                    case SentimentScore.StrongNegative:
+                        sourcesBais[key].NegativeSpecific++;
+                        break;
+                    case SentimentScore.Negative:
+                        sourcesBais[key].NegativeSpecific++;
+                        break;
+                    case SentimentScore.Neutral:
+                        sourcesBais[key].NuteralSpecific++;
+                        break;
+                    case SentimentScore.Positive:
+                        sourcesBais[key].PositiveSpecific++;
+                        break;
+                    case SentimentScore.StrongPositive:
+                        sourcesBais[key].PositiveSpecific++;
+                        break;
+                } 
+            }   
         }
 
         private static string ConvertToCSVLine(EntityKey key, EntityValue value)
