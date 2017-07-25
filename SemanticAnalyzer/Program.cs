@@ -13,6 +13,8 @@ using SemanticAnalyzer.Readers;
 
 namespace SemanticAnalyzer
 {
+    using System;
+
     /// <summary>
     /// The program.
     /// </summary>
@@ -37,12 +39,22 @@ namespace SemanticAnalyzer
             
             // Write local DB
             FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);*/
-
             Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
-            FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
-            MeaningCloud.AnalyzeArticle("NYTimes", "bing.com", Consts.t, sourcesBais);
-            FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
-            FileUtils.WriteOppositeOpinion(Consts.OppositePath);
+
+            try
+            {
+                FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+                MeaningCloud.AnalyzeArticle("NYTimes", "bing.com", Consts.t, sourcesBais);
+                FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+                FileUtils.WriteOppositeOpinion(Consts.OppositePath);
+            }
+            catch(Exception e)
+            {
+                FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+                FileUtils.WriteOppositeOpinion(Consts.OppositePath);
+                Console.WriteLine(e);
+                Console.WriteLine("coint is {0}", MeaningCloud.Count);
+            }
         }
     }
 }

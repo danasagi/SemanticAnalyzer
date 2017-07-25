@@ -150,7 +150,7 @@ namespace SemanticAnalyzer
             File.WriteAllText(sourcesBaisPath, sourcesBaisOutput.ToString());
         }
 
-        public static TopicAgenda CalculateTopicAgenda(Dictionary<EntityKey, EntityValue> sourcesBais, EntityKey key)
+        public static TopicAgenda CalculateTopicAgenda(Dictionary<EntityKey, EntityValue> sourcesBais, EntityKey key, string OppositeOpinionUrl)
         {
             EntityValue value;
             if (sourcesBais.TryGetValue(key, out value))
@@ -158,7 +158,8 @@ namespace SemanticAnalyzer
                 return new TopicAgenda()
                 {
                     Name = value.Name,
-                    Agenda = CalculateTopicAgenda(value.PositiveSpecific, value.NegativeSpecific, value.NeutralSpecific)
+                    Agenda = CalculateTopicAgenda(value.PositiveSpecific, value.NegativeSpecific, value.NeutralSpecific),
+                    OppositeOpinionUrl = OppositeOpinionUrl
                 };
             }
 

@@ -10,22 +10,16 @@ using Newtonsoft.Json.Linq;
 namespace SemanticAnalyzer
 {
     using System.Security.Policy;
+    using System.Threading;
 
     public class MeaningCloud
     {
-<<<<<<< HEAD
-        public static void AnalyzeArticle(string source, string url, string text, Dictionary<EntityKey, EntityValue> sourcesBais)
-=======
-        public static void AnalyzeArticles(string source, string url, List<string> textList, Dictionary<EntityKey, EntityValue> sourcesBais)
-        {
-            foreach (var text in textList)
-            {
-                AnalyzeArticle(source, url, text, sourcesBais);
-            }
-        }
+        public static int Count = 0;
+
+        private static string adisKey = "20b7d5e0ec94057b07166ac0b1565299";
+        private static string niritsKey = "c42cd3f790592742da5e3ef62284c75c";
 
         public static List<TopicAgenda> AnalyzeArticle(string source, string url, string text, Dictionary<EntityKey, EntityValue> sourcesBais)
->>>>>>> 12c09a5e25c7b8ce590d8121e3124fa1505a30dd
         {
             int numEntities = 3;
             double confidenceThreshold = 70;
@@ -42,7 +36,18 @@ namespace SemanticAnalyzer
             var oppositeLink = OppositeOpinion.GetOppositeLink(entities, sentiment.GeneralScore);
 			FileUtils.UpdateSourcesBais(sourcesBais, source, sentiment);
 
-            return sentiment.EntitySentiments.Select(entity => FileUtils.CalculateTopicAgenda(sourcesBais, new EntityKey(source, entity.Id))).ToList();
+            Count++;
+            if (Count > 20000)
+            {
+                Consts.Key = niritsKey;
+            }
+
+            if (Count > 59000)
+            {
+                Consts.Key = adisKey;
+            }
+
+            return sentiment.EntitySentiments.Select(entity => FileUtils.CalculateTopicAgenda(sourcesBais, new EntityKey(source, entity.Id), oppositeLink)).ToList();
         }
 
         public static List<string> GetEntitiesByText(string text, int numEntities, double confidenceThreshold)
