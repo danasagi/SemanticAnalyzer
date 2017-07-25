@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Security.Permissions;
 
 
 namespace SemanticAnalyzer
@@ -47,22 +48,22 @@ namespace SemanticAnalyzer
         public string Type;
         public int PositiveSpecific;
         public int NegativeSpecific;
-        public int NuteralSpecific;
+        public int NeutralSpecific;
         public int PositiveGeneral;
         public int NegativeGeneral;
-        public int NuteralGeneral;
+        public int NeutralGeneral;
 
 
-        public EntityValue(string name, string type, int positiveSpecific, int negativeSpecific, int nuteralSpecific, int positiveGeneral, int negativeGeneral, int nuteralGeneral)
+        public EntityValue(string name, string type, int positiveSpecific, int negativeSpecific, int neutralSpecific, int positiveGeneral, int negativeGeneral, int neutralGeneral)
         {
             Name = name;
             Type = type;
             PositiveSpecific = positiveSpecific;
             NegativeSpecific = negativeSpecific;
-            NuteralSpecific = nuteralSpecific;
+            NeutralSpecific = neutralSpecific;
             PositiveGeneral = positiveGeneral;
             NegativeGeneral = negativeGeneral;
-            NuteralGeneral = nuteralGeneral;
+            NeutralGeneral = neutralGeneral;
         }
 
     }
@@ -81,26 +82,61 @@ namespace SemanticAnalyzer
             }
         }
 
-        public static void UpdateSourcesBais(Dictionary<EntityKey, EntityValue> sourcesBais, string src, Sentiment articleSentiment)
+        public static void UpdateSourcesBais(Dictionary<EntityKey, EntityValue> sourcesBais, string src, Sentiment articleSentiments)
         {
-            //EntityKey key = null;
-            //EntityValue initValue = EntityValue(string name, string type, 0, 0, 0, 0, 0, 0);
-            //if (!(sourcesBais.ContainsKey(key))) //new entity
-            //{
-            //    sourcesBais.Add(key);
-            //}
-            //else 
-            //{
-            //    sourcesBais
-            //}
+            foreach (var articleSentiment in articleSentiments.EntitySentiments)
+            {
+                EntityKey key = new EntityKey(src, articleSentiment.Id);
+                EntityValue initValue = new EntityValue(articleSentiment.Name, articleSentiment.Type, 0, 0, 0, 0, 0, 0);
+                if (!(sourcesBais.ContainsKey(key))) //new entity
+                {
+                    sourcesBais.Add(key, initValue);
+                }
+                switch (articleSentiments.GeneralScore)
+                {
+                    case SentimentScore.StrongNegative:
+                        sourcesBais[key].NegativeGeneral++;
+                        break;
+                    case SentimentScore.Negative:
+                        sourcesBais[key].NegativeGeneral++;
+                        break;
+                    case SentimentScore.Neutral:
+                        sourcesBais[key].NeutralGeneral++;
+                        break;
+                    case SentimentScore.Positive:
+                        sourcesBais[key].PositiveGeneral++;
+                        break;
+                    case SentimentScore.StrongPositive:
+                        sourcesBais[key].PositiveGeneral++;
+                        break;
+                }
+                switch (articleSentiment.SpecificScore)
+                {
+                    case SentimentScore.StrongNegative:
+                        sourcesBais[key].NegativeSpecific++;
+                        break;
+                    case SentimentScore.Negative:
+                        sourcesBais[key].NegativeSpecific++;
+                        break;
+                    case SentimentScore.Neutral:
+                        sourcesBais[key].NeutralSpecific++;
+                        break;
+                    case SentimentScore.Positive:
+                        sourcesBais[key].PositiveSpecific++;
+                        break;
+                    case SentimentScore.StrongPositive:
+                        sourcesBais[key].PositiveSpecific++;
+                        break;
+                } 
+            }   
         }
 
         private static string ConvertToCSVLine(EntityKey key, EntityValue value)
         {
             string line = key.Src + ',' + key.Entity + ',' + value.Name + ',' + value.Type + ',' + (value.PositiveSpecific).ToString() +
-                          ',' + value.NegativeSpecific.ToString() + ',' + value.NuteralSpecific.ToString() +
+                          ',' + value.NegativeSpecific.ToString() + ',' + value.NeutralSpecific.ToString() +
                           ',' + value.PositiveGeneral.ToString() + ',' + value.NegativeGeneral.ToString() +
-                          ',' + value.NuteralGeneral.ToString();
+                          ',' + value.NeutralGeneral.ToString();
             return line;
         }
 
@@ -114,7 +150,48 @@ namespace SemanticAnalyzer
             File.WriteAllText(sourcesBaisPath, sourcesBaisOutput.ToString());
         }
 
-        public static void ReadOppositeOpinion(string path)
+        public static TopicAgenda CalculateTopicAgenda(Dictionary<EntityKey, EntityValue> sourcesBais, EntityKey key)
+        {
+            EntityValue value;
+            if (sourcesBais.TryGetValue(key, out value))
+            {
+                return new TopicAgenda()
+                {
+                    Name = value.Name,
+                    Agenda = CalculateTopicAgenda(value.PositiveSpecific, value.NegativeSpecific, value.NeutralSpecific)
+                };
+            }
+
+            return null;
+        }
+
+        private static int CalculateTopicAgenda(int positive, int negative, int neutral)
+        {
+            var relation = positive / (positive + negative + neutral);
+            if (relation >= 0 && relation < 0.2)
+            {
+                return -2;
+            }
+
+            if (relation >= 0.2 && relation < 0.4)
+            {
+                return -1;
+            }
+
+            if (relation >= 0.4 && relation < 0.6)
+            {
+                return 0;
+            }
+
+            if (relation >= 0.6 && relation < 0.8)
+            {
+                return 1;
+            }
+
+            return 2;
+        }
+		
+		   public static void ReadOppositeOpinion(string path)
         {
             System.IO.StreamReader file = new System.IO.StreamReader(path);
             string line = file.ReadLine();

@@ -8,6 +8,8 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 using System.Collections.Generic;
+using System.IO;
+using SemanticAnalyzer.Readers;
 
 namespace SemanticAnalyzer
 {
@@ -21,16 +23,24 @@ namespace SemanticAnalyzer
         /// </summary>
         public static void Main()
         {
-            // SandBox.GetEntitiesByText(Consts.t);
-            // SandBox.GetSentimentsByText(Consts.text);
+            // Read local DB
+            /*Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
+            FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
 
-            /**
-             *this is going to be the main method: 
-             */
-            //FileUtils.ReadOppositeOpinion(Consts.OppositePath);
+            // Go over news datasets
+            var parser = new ArticlesParser();
+            DirectoryInfo d = new DirectoryInfo(Consts.DatasetsFolder);
+            foreach (var file in d.GetFiles())
+            {
+                parser.parse_file(file.FullName);
+            }
+            
+            // Write local DB
+            FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);*/
+
             Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
             FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
-            MeaningCloud.AnalyzeArticle("src", "url", Consts.t, sourcesBais);
+            MeaningCloud.AnalyzeArticle("NYTimes", "bing.com", Consts.t, sourcesBais);
             FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
             FileUtils.WriteOppositeOpinion(Consts.OppositePath);
         }

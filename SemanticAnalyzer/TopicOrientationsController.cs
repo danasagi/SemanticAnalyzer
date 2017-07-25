@@ -21,16 +21,12 @@ namespace SemanticAnalyzer
                 return null;
             }
             var articleData = GetArticleData(url);
-            /**
-             * need to remove the comment and the throw declaration when the AnalyzeArticle method return the right type
-             *  |
-             *  |
-             *  |
-             * \ /
-             *  V
-             */
-            //return MeaningCloud.AnalyzeArticle(articleData.SiteName, articleData.Text);
-            throw new AggregateException();
+            Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
+            FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+            var result = MeaningCloud.AnalyzeArticle(articleData.SiteName, url, articleData.Text, sourcesBais);
+            FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+
+            return result;
         }   
 
 
