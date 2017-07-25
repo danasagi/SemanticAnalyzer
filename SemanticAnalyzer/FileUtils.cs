@@ -101,7 +101,7 @@ namespace SemanticAnalyzer
                         sourcesBais[key].NegativeGeneral++;
                         break;
                     case SentimentScore.Neutral:
-                        sourcesBais[key].NuteralGeneral++;
+                        sourcesBais[key].NeutralGeneral++;
                         break;
                     case SentimentScore.Positive:
                         sourcesBais[key].PositiveGeneral++;
@@ -119,7 +119,7 @@ namespace SemanticAnalyzer
                         sourcesBais[key].NegativeSpecific++;
                         break;
                     case SentimentScore.Neutral:
-                        sourcesBais[key].NuteralSpecific++;
+                        sourcesBais[key].NeutralSpecific++;
                         break;
                     case SentimentScore.Positive:
                         sourcesBais[key].PositiveSpecific++;
