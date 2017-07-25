@@ -10,5 +10,6 @@ namespace SemanticAnalyzer
 {
     public static class SandBox
     {
+
     }
 }

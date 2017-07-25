@@ -11,7 +11,7 @@ namespace SemanticAnalyzer
 {
     using System.Security.Policy;
 
-    class MeaningCloud
+    public class MeaningCloud
     {
         public static void AnalyzeArticles(string source, string url, List<string> textList)
         {
@@ -33,7 +33,7 @@ namespace SemanticAnalyzer
             }
 
             List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
-            var sentiments = GetSentimentsByText(text, entities);
+            var sentiment = GetSentimentsByText(text, entities);
             //now we need to get the sentiment per entity from the list and save it to the storage and also return the info to the service according to the old and new data
    //         OppositeOpinion.AddItem(entities, url, sentiments.);
         }
@@ -69,9 +69,10 @@ namespace SemanticAnalyzer
             return entitiesIds;
         }
 
-        public static List<Sentiment> GetSentimentsByText(string text, List<string> entitiesIds)
+        public static Sentiment GetSentimentsByText(string text, List<string> entitiesIds)
         {
-            var sentimentsList = new List<Sentiment>();
+            var sentiment = new Sentiment { EntitySentiments = new List<EntitySentiment>() };
+
             using (var client = new WebClient())
             {
                 var requestUrl = "https://api.meaningcloud.com/sentiment-2.1";
@@ -80,20 +81,50 @@ namespace SemanticAnalyzer
                 var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);
-                /*for (int i = 0; i < result && result.entity_list[i] != null; i++)
+                sentiment.GeneralScore = ParseScore(result.score_tag.Value);
+                foreach (var e in result.sentimented_entity_list)
                 {
-                    if (result.entity_list[i].relevance != null)
+                    if (!entitiesIds.Contains(e.id.Value))
                     {
-                        int relevance = int.Parse(result.entity_list[i].relevance.Value);
-                        if (relevance >= confidenceThreshold)
-                        {
-                            entitiesIds.Add(result.entity_list[i].id.Value);
-                        }
+                        continue;
                     }
-                }*/
+
+                    var entitySentiment = new EntitySentiment
+                    {
+                        Id = e.id.Value,
+                        Name = e.form.Value,
+                        Type = e.type.Value,
+                        SpecificScore = ParseScore(e.score_tag.Value)
+                    };
+
+                    sentiment.EntitySentiments.Add(entitySentiment);
+                    if (sentiment.EntitySentiments.Count == entitiesIds.Count)
+                    {
+                        break;
+                    }
+                }
             }
 
-            return sentimentsList;
+            return sentiment;
+        }
+
+        private static SentimentScore ParseScore(string score)
+        {
+            switch (score)
+            {
+                case "P":
+                    return SentimentScore.Positive;
+                case "P+":
+                    return SentimentScore.StrongPositive;
+                case "N":
+                    return SentimentScore.Negative;
+                case "N+":
+                    return SentimentScore.StrongNegative;
+                case "NEU":
+                    return SentimentScore.Neutral;
+                default:
+                    return SentimentScore.Neutral;
+            }
         }
     }
 }
