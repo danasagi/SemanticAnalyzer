@@ -24,7 +24,7 @@ namespace SemanticAnalyzer
         public static void Main()
         {
             // Read local DB
-            /*Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
+            Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
             FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
 
             // Go over news datasets
@@ -36,12 +36,12 @@ namespace SemanticAnalyzer
             }
             
             // Write local DB
-            FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);*/
-
-            Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
-            FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
-            MeaningCloud.AnalyzeArticle("NYTimes", "bing.com", Consts.t, sourcesBais);
             FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+
+            //Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
+            //FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+            //MeaningCloud.AnalyzeArticle("NYTimes", "bing.com", Consts.t, sourcesBais);
+            //FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
         }
     }
 }

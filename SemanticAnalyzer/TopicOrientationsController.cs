@@ -29,10 +29,8 @@ namespace SemanticAnalyzer
             return result;
         }   
 
-
         private ArticleData GetArticleData(string url)
         {
-
             var requestContent = "https://api.diffbot.com/v3/article?" +
                 "token=642d8c5e2e5f11ca47e3128716bea5dc&url=" +
                 url +
