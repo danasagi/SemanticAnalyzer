@@ -21,7 +21,7 @@ namespace SemanticAnalyzer
             }
         }
 
-        public static void AnalyzeArticle(string source, string url, string text, Dictionary<EntityKey, EntityValue> sourcesBais)
+        public static List<TopicAgenda> AnalyzeArticle(string source, string url, string text, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
             int numEntities = 3;
             double confidenceThreshold = 70;
@@ -29,7 +29,7 @@ namespace SemanticAnalyzer
             if (string.IsNullOrWhiteSpace(text))
             {
                 Console.Write("no valid input!");
-                return;
+                return null;
             }
 
             List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
@@ -37,6 +37,8 @@ namespace SemanticAnalyzer
             OppositeOpinion.AddItem(entities, url, sentiment.GeneralScore);
             var oppositeLink = OppositeOpinion.GetOppositeLink(entities, sentiment.GeneralScore);
 			FileUtils.UpdateSourcesBais(sourcesBais, source, sentiment);
+
+            return sentiment.EntitySentiments.Select(entity => FileUtils.CalculateTopicAgenda(sourcesBais, new EntityKey(source, entity.Id))).ToList();
         }
 
         public static List<string> GetEntitiesByText(string text, int numEntities, double confidenceThreshold)
