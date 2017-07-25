@@ -8,6 +8,12 @@ namespace SemanticAnalyzer
 {
     public static class Consts
     {
+
+        public const string KeyAndLang = "key=d56be77678d4001808974084056a1712&of=json&lang=en&ilang=en&";
+        public const string Header = "application/x-www-form-urlencoded";
+        public const string RequestOptions = "&tt=a&uw=y";
+
+
         public const string txt =
     "When President Donald Trump enters the annual G20 Summit this week, he will begin an important dialogue about a series of pivotal issues ranging from financial regulation to trade and immigration. The conversations, which the G20 has been conducting since 1999, will involve cabinet - room style talks with all the leaders in this powerful group as well as side discussions between particular leaders focusing on the challenges that their respective nations face and tensions that exist between them.Most eagerly anticipated are the potential interactions between Presidents Donald Trump and Vladimir Putin. But Trump walks into this summit with the United States now in a much weaker position than when he started his presidency. The President, who prides himself on making America great again, brings with him a set of liabilities that will make it more difficult for him to persuade others at this crucial gathering in Hamburg, Germany, to listen to his recommendations or fear his threats-- despite all the economic and military power that the United States brings to the table.";
         public const string text = "   During a recent interview, the German soprano Diana Damrau and the Italian tenor Vittorio Grigolo tried to describe the chemistry they have together onstage.Reading their comments, I worried that they might be overthinking things. After all, they first worked together only last year, appearing as the lovers in Massenet’s “Manon” at the Metropolitan Opera. The couple thrilled audiences and critics with the smoldering intensity they emitted. So this is a new relationship.In talking about their instinctive connection might they risk making it self - conscious ? " +
