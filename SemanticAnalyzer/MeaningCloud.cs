@@ -11,15 +11,15 @@ namespace SemanticAnalyzer
 {
     class MeaningCloud
     {
-        public static void AnalyzeArticle(string source, List<string> textList)
+        public static void AnalyzeArticles(string source, List<string> textList)
         {
             foreach (var text in textList)
             {
-                AnalyzeArticle(text);
+                AnalyzeArticle(source, text);
             }
         }
 
-        public static void AnalyzeArticle(string text)
+        public static void AnalyzeArticle(string source, string text)
         {
             int numEntities = 3;
             double confidenceThreshold = 70;
@@ -33,6 +33,7 @@ namespace SemanticAnalyzer
             List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
             GetSentimentsByText(text, entities);
             //now we need to get the sentiment per entity from the list and save it to the storage and also return the info to the service according to the old and new data
+
         }
 
         public static List<string> GetEntitiesByText(string text, int numEntities, double confidenceThreshold)
