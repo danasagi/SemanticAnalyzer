@@ -8,14 +8,8 @@ namespace SemanticAnalyzer
 {
     public class Sentiment
     {
-        public string Id { get; set; }
-
-        public string Name { get; set; }
-
-        public string Type { get; set; }
-
-        public SentimentScore SpecificScore { get; set; }
-
         public SentimentScore GeneralScore { get; set; }
+
+        public List<EntitySentiment> EntitySentiments { get; set; }
     }
 }
