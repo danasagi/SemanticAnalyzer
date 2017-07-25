@@ -33,7 +33,7 @@ namespace SemanticAnalyzer.Readers
             Uri uri = new Uri(article.url);
             string host = uri.Host;
 
-            MeaningCloud.AnalyzeArticle(host, uri, cleanArticle);
+            MeaningCloud.AnalyzeArticle(host, uri.ToString(), cleanArticle);
         }
 
         public void parse_file(string path)
