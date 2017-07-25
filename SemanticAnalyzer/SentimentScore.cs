@@ -10,8 +10,8 @@ namespace SemanticAnalyzer
     {
         Neutral = 0,
         Positive = 1,
-        PositivePlus = 2,
+        StrongPositive = 2,
         Negative = -1,
-        NegativePlus = -2
+        StrongNegative = -2
     }
 }
