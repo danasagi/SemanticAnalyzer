@@ -67,6 +67,7 @@
     <Compile Include="SandBox.cs" />
     <Compile Include="Sentiment.cs" />
     <Compile Include="SentimentScore.cs" />
+    <Compile Include="TopicOrientationsController.cs" />
     <Compile Include="XmlManager.cs" />
   </ItemGroup>
   <ItemGroup>
