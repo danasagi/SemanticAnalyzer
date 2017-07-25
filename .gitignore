@@ -75,3 +75,5 @@ SemanticAnalyzer/SemanticAnalyzer.csproj.orig
 SemanticAnalyzer/MeaningCloud.cs.orig
 SemanticAnalyzer/Program.cs.orig
 SemanticAnalyzer/SemanticAnalyzer.userosscache
+SemanticAnalyzer/Consts.cs.orig
+SemanticAnalyzer/FileUtils.cs.orig
