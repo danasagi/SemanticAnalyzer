@@ -41,3 +41,5 @@ packages/RestSharp.105.2.3/lib/windowsphone8/RestSharp.xml
 packages/RestSharp.105.2.3/lib/windowsphone81/RestSharp.dll
 packages/RestSharp.105.2.3/lib/windowsphone81/RestSharp.xml
 packages/RestSharp.105.2.3/readme.txt
+.vs/SemanticAnalyzer/v14/.suo
+SemanticAnalyzer/SemanticAnalyzer.userosscache
