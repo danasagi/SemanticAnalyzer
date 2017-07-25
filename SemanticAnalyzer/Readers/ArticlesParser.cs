@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Text;
 using Newtonsoft.Json;
 
@@ -29,8 +30,10 @@ namespace SemanticAnalyzer.Readers
             var article = JsonConvert.DeserializeObject<SingleArticle>(line);
             string cleanArticle = CleanUnicodeContent(article.content);
 
-            // Source, url, text
-            MeaningCloud.AnalyzeArticle(cleanArticle);
+            Uri uri = new Uri(article.url);
+            string host = uri.Host;
+
+            MeaningCloud.AnalyzeArticle(host, uri.ToString(), cleanArticle);
         }
 
         public void parse_file(string path)
