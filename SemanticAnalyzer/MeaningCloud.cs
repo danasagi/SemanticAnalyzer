@@ -36,6 +36,7 @@ namespace SemanticAnalyzer
             var sentiment = GetSentimentsByText(text, entities);
             //now we need to get the sentiment per entity from the list and save it to the storage and also return the info to the service according to the old and new data
             OppositeOpinion.AddItem(entities, url, sentiment.GeneralScore);
+            var oppositeLink = OppositeOpinion.GetOppositeLink(entities, sentiment.GeneralScore);
         }
 
         public static List<string> GetEntitiesByText(string text, int numEntities, double confidenceThreshold)

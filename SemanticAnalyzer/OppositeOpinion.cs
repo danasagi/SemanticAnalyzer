@@ -82,7 +82,7 @@ namespace SemanticAnalyzer
 
             if (score == 0)
             {
-                return string.Empty;
+                return null;
             }
 
             // Looking for good score
@@ -111,7 +111,7 @@ namespace SemanticAnalyzer
                 }
             }
 
-            return string.Empty;
+            return null;
         }
     }
 }
