@@ -13,15 +13,15 @@ namespace SemanticAnalyzer
 
     public class MeaningCloud
     {
-        public static void AnalyzeArticles(string source, List<string> textList, Dictionary<EntityKey, EntityValue> sourcesBais)
+        public static void AnalyzeArticles(string source, string url, List<string> textList, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
             foreach (var text in textList)
             {
-                AnalyzeArticle(source, text, sourcesBais);
+                AnalyzeArticle(source, url, text, sourcesBais);
             }
         }
 
-        public static void AnalyzeArticle(string source, string text, Dictionary<EntityKey, EntityValue> sourcesBais)
+        public static void AnalyzeArticle(string source, string url, string text, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
             int numEntities = 3;
             double confidenceThreshold = 70;
