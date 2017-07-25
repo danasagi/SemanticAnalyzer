@@ -23,7 +23,7 @@ namespace SemanticAnalyzer
             }
 
             List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
-            GetSentimentsByText(text, entities);
+            var sentiments = GetSentimentsByText(text, entities);
             //now we need to get the sentiment per entity from the list and save it to the storage and also return the info to the service according to the old and new data
         }
 
@@ -35,8 +35,8 @@ namespace SemanticAnalyzer
                 var requestUrl =
                     "https://api.meaningcloud.com/topics-2.0";
                 client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
-                //encodedText = Uri.EscapeUriString(text);
-                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + text + Consts.RequestOptions);
+                var encodedText = Uri.EscapeUriString(text);
+                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);
                 for (int i = 0; i < numEntities && result.entity_list[i] != null; i++)
@@ -55,19 +55,31 @@ namespace SemanticAnalyzer
             return entitiesIds;
         }
 
-        public static void GetSentimentsByText(string text, List<string> entitiesIds)
+        public static List<Sentiment> GetSentimentsByText(string text, List<string> entitiesIds)
         {
+            var sentimentsList = new List<Sentiment>();
             using (var client = new WebClient())
             {
-                var requestUrl =
-                    "https://api.meaningcloud.com/sentiment-2.1";
+                var requestUrl = "https://api.meaningcloud.com/sentiment-2.1";
                 client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
-                //encodedText = Uri.EscapeUriString(text);
-                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + text + Consts.RequestOptions);
+                var encodedText = Uri.EscapeUriString(text);
+                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);
-                Console.Write(result);
+                /*for (int i = 0; i < result && result.entity_list[i] != null; i++)
+                {
+                    if (result.entity_list[i].relevance != null)
+                    {
+                        int relevance = int.Parse(result.entity_list[i].relevance.Value);
+                        if (relevance >= confidenceThreshold)
+                        {
+                            entitiesIds.Add(result.entity_list[i].id.Value);
+                        }
+                    }
+                }*/
             }
+
+            return sentimentsList;
         }
     }
 }
