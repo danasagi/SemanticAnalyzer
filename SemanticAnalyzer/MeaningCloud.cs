@@ -11,47 +11,62 @@ namespace SemanticAnalyzer
 {
     class MeaningCloud
     {
-        public static void AnalyzeArticle(string text = "", string url = "", string document = "")
+        public static void AnalyzeArticle(string text)
         {
-            AnalyzeArticle(3, 70, text, url, document);
-        }
+            int numEntities = 3;
+            double confidenceThreshold = 70;
 
-        public static void AnalyzeArticle(int numEntities = 3, double confidenceThreshold = 70, string text = "", string url = "", string document = "")
-        {
-            if (text == "" && url == "" && document == "")
+            if (string.IsNullOrWhiteSpace(text))
             {
                 Console.Write("no valid input!");
                 return;
             }
-            string textToAnalyze = FindNonEmptyString(text, url, document);
-            List<string> entities = GetSortedTopicsFromText(textToAnalyze, numEntities, confidenceThreshold);
+            List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
             //now we need to get the sentiment per entity from the list and save it to the storage and also return the info to the service according to the old and new data
         }
 
+        /*    private static List<string> GetSortedTopicsFromText(string text, int numEntities, double confidenceThreshold)
+            {
+                var client = new WebClient();
+                var requestUrl =
+                    "https://api.meaningcloud.com/sentiment-2.1";
+                client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
 
-        /**
-         * the UploadString method is problematic since it returns only the first information from the response (success + returnCode and etc). we need to extract the entity_list
-         * which will give us the 'form' (entity name) and the score of each entity.
-         * then parse it to JArray instead of JObject and get all the list according to the numEntities and confidenceThreshold parameters.
-        */
-        private static List<string> GetSortedTopicsFromText(string text, int numEntities, double confidenceThreshold)
+                var response = client.UploadString(requestUrl, Consts.KeyAndLang + text + Consts.RequestOptions);
+                dynamic json = JObject.Parse(response);
+                return new List<string>();
+            }*/
+
+        public static List<string> GetEntitiesByText(string text, int numEntities, double confidenceThreshold)
         {
-            var client = new WebClient();
-            var requestUrl =
-                "https://api.meaningcloud.com/sentiment-2.1";
-            client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
+            using (var client = new WebClient())
+            {
+                var requestUrl =
+                    "https://api.meaningcloud.com/topics-2.0";
+                client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
+                //encodedText = Uri.EscapeUriString(text);
+                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + text + Consts.RequestOptions);
 
-            var response = client.UploadString(requestUrl, Consts.KeyAndLang + text + Consts.RequestOptions);
-            dynamic json = JObject.Parse(response);
+                var result = JsonConvert.DeserializeObject<dynamic>(response);
+                Console.Write(result);
+            }
+
             return new List<string>();
         }
 
-
-        private static string FindNonEmptyString(string text, string url, string doc)
+        public static void GetSentimentsByText(string text)
         {
-            if (text != "") return "txt=" + text;
-            if (url != "") return "url=" + url;
-            return "doc=" + doc;
+            using (var client = new WebClient())
+            {
+                var requestUrl =
+                    "https://api.meaningcloud.com/sentiment-2.1";
+                client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
+                //encodedText = Uri.EscapeUriString(text);
+                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + text + Consts.RequestOptions);
+
+                var result = JsonConvert.DeserializeObject<dynamic>(response);
+                Console.Write(result);
+            }
         }
     }
 }
