@@ -8,10 +8,6 @@ using System.IO;
 
 namespace SemanticAnalyzer
 {
-    public enum Score
-    {
-        sd, ssd
-    }
     public class EntityKey
     {
         protected bool Equals(EntityKey other)
@@ -85,7 +81,7 @@ namespace SemanticAnalyzer
             }
         }
 
-        public static void UpdateSourcesBais(Dictionary<EntityKey, EntityValue> sourcesBais, string src, string entityId, string entityName, string entityType, Score entitySpecific, Score articleGeneral)
+        public static void UpdateSourcesBais(Dictionary<EntityKey, EntityValue> sourcesBais, string src, Sentiment articleSentiment)
         {
             //EntityKey key = null;
             //EntityValue initValue = EntityValue(string name, string type, 0, 0, 0, 0, 0, 0);
