@@ -13,15 +13,15 @@ namespace SemanticAnalyzer
 
     public class MeaningCloud
     {
-        public static void AnalyzeArticles(string source, string url, List<string> textList)
+        public static void AnalyzeArticles(string source, string url, List<string> textList, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
             foreach (var text in textList)
             {
-                AnalyzeArticle(source, url, text);
+                AnalyzeArticle(source, url, text, sourcesBais);
             }
         }
 
-        public static void AnalyzeArticle(string source, string url, string text)
+        public static void AnalyzeArticle(string source, string url, string text, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
             int numEntities = 3;
             double confidenceThreshold = 70;
@@ -34,8 +34,9 @@ namespace SemanticAnalyzer
 
             List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
             var sentiment = GetSentimentsByText(text, entities);
-            //now we need to get the sentiment per entity from the list and save it to the storage and also return the info to the service according to the old and new data
-   //         OppositeOpinion.AddItem(entities, url, sentiments.);
+            OppositeOpinion.AddItem(entities, url, sentiment.GeneralScore);
+            var oppositeLink = OppositeOpinion.GetOppositeLink(entities, sentiment.GeneralScore);
+			FileUtils.UpdateSourcesBais(sourcesBais, source, sentiment);
         }
 
         public static List<string> GetEntitiesByText(string text, int numEntities, double confidenceThreshold)

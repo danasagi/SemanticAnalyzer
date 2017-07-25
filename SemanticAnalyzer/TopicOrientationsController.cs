@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 using Newtonsoft.Json;
-using RestSharp;
 
 namespace SemanticAnalyzer
 {

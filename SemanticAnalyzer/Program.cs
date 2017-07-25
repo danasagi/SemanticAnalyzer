@@ -7,6 +7,8 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
+using System.Collections.Generic;
+
 namespace SemanticAnalyzer
 {
     /// <summary>
@@ -25,7 +27,10 @@ namespace SemanticAnalyzer
             /**
              *this is going to be the main method: 
              */
-            MeaningCloud.AnalyzeArticle("source", "url", Consts.t);
+            Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
+            FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+            MeaningCloud.AnalyzeArticle("src", "url", Consts.t, sourcesBais);
+            FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
         }
     }
 }
