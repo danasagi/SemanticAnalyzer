@@ -11,7 +11,15 @@ namespace SemanticAnalyzer
 {
     public class MeaningCloud
     {
-        public static void AnalyzeArticle(string text)
+        public static void AnalyzeArticles(string source, List<string> textList)
+        {
+            foreach (var text in textList)
+            {
+                AnalyzeArticle(source, text);
+            }
+        }
+
+        public static void AnalyzeArticle(string source, string text)
         {
             int numEntities = 3;
             double confidenceThreshold = 70;
@@ -21,51 +29,94 @@ namespace SemanticAnalyzer
                 Console.Write("no valid input!");
                 return;
             }
+
             List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
-            //now we need to get the sentiment per entity from the list and save it to the storage and also return the info to the service according to the old and new data
+            var sentiment = GetSentimentsByText(text, entities);
         }
-
-        /*    private static List<string> GetSortedTopicsFromText(string text, int numEntities, double confidenceThreshold)
-            {
-                var client = new WebClient();
-                var requestUrl =
-                    "https://api.meaningcloud.com/sentiment-2.1";
-                client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
-
-                var response = client.UploadString(requestUrl, Consts.KeyAndLang + text + Consts.RequestOptions);
-                dynamic json = JObject.Parse(response);
-                return new List<string>();
-            }*/
 
         public static List<string> GetEntitiesByText(string text, int numEntities, double confidenceThreshold)
         {
+            List<string> entitiesIds = new List<string>(); 
             using (var client = new WebClient())
             {
                 var requestUrl =
                     "https://api.meaningcloud.com/topics-2.0";
                 client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
-                //encodedText = Uri.EscapeUriString(text);
-                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + text + Consts.RequestOptions);
+                var encodedText = Uri.EscapeUriString(text);
+                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);
-                Console.Write(result);
+                for (int i = 0; i < numEntities && result.entity_list[i] != null; i++)
+                {
+                    if (result.entity_list[i].relevance != null)
+                    {
+                        int relevance  = int.Parse(result.entity_list[i].relevance.Value);
+                        if (relevance >= confidenceThreshold)
+                        {
+                            entitiesIds.Add(result.entity_list[i].id.Value);
+                        }
+                    }
+                }
             }
 
-            return new List<string>();
+            return entitiesIds;
         }
 
-        public static void GetSentimentsByText(string text)
+        public static Sentiment GetSentimentsByText(string text, List<string> entitiesIds)
         {
+            var sentiment = new Sentiment { EntitySentiments = new List<EntitySentiment>() };
+
             using (var client = new WebClient())
             {
-                var requestUrl =
-                    "https://api.meaningcloud.com/sentiment-2.1";
+                var requestUrl = "https://api.meaningcloud.com/sentiment-2.1";
                 client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
-                //encodedText = Uri.EscapeUriString(text);
-                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + text + Consts.RequestOptions);
+                var encodedText = Uri.EscapeUriString(text);
+                var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);
-                Console.Write(result);
+                sentiment.GeneralScore = ParseScore(result.score_tag.Value);
+                foreach (var e in result.sentimented_entity_list)
+                {
+                    if (!entitiesIds.Contains(e.id.Value))
+                    {
+                        continue;
+                    }
+
+                    var entitySentiment = new EntitySentiment
+                    {
+                        Id = e.id.Value,
+                        Name = e.form.Value,
+                        Type = e.type.Value,
+                        SpecificScore = ParseScore(e.score_tag.Value)
+                    };
+
+                    sentiment.EntitySentiments.Add(entitySentiment);
+                    if (sentiment.EntitySentiments.Count == entitiesIds.Count)
+                    {
+                        break;
+                    }
+                }
+            }
+
+            return sentiment;
+        }
+
+        private static SentimentScore ParseScore(string score)
+        {
+            switch (score)
+            {
+                case "P":
+                    return SentimentScore.Positive;
+                case "P+":
+                    return SentimentScore.StrongPositive;
+                case "N":
+                    return SentimentScore.Negative;
+                case "N+":
+                    return SentimentScore.StrongNegative;
+                case "NEU":
+                    return SentimentScore.Neutral;
+                default:
+                    return SentimentScore.Neutral;
             }
         }
     }
