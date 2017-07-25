@@ -9,6 +9,8 @@ using Newtonsoft.Json.Linq;
 
 namespace SemanticAnalyzer
 {
+    using System.Security.Policy;
+
     public class MeaningCloud
     {
         public static void AnalyzeArticles(string source, List<string> textList, Dictionary<EntityKey, EntityValue> sourcesBais)
@@ -32,29 +34,34 @@ namespace SemanticAnalyzer
 
             List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
             var sentiment = GetSentimentsByText(text, entities);
-            FileUtils.UpdateSourcesBais(sourcesBais, source, sentiment);
+            OppositeOpinion.AddItem(entities, url, sentiment.GeneralScore);
+            var oppositeLink = OppositeOpinion.GetOppositeLink(entities, sentiment.GeneralScore);
+			FileUtils.UpdateSourcesBais(sourcesBais, source, sentiment);
         }
 
         public static List<string> GetEntitiesByText(string text, int numEntities, double confidenceThreshold)
         {
-            List<string> entitiesIds = new List<string>(); 
+            List<string> entitiesIds = new List<string>();
             using (var client = new WebClient())
             {
-                var requestUrl =
-                    "https://api.meaningcloud.com/topics-2.0";
+                var requestUrl = "https://api.meaningcloud.com/topics-2.0";
                 client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
                 var encodedText = Uri.EscapeUriString(text);
                 var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);
-                for (int i = 0; i < numEntities && result.entity_list[i] != null; i++)
+                if (result != null && result.entity_list != null)
                 {
-                    if (result.entity_list[i].relevance != null)
+                    numEntities = Math.Min(numEntities, result.entity_list.Count);
+                    for (int i = 0; i < numEntities && result.entity_list[i] != null; i++)
                     {
-                        int relevance  = int.Parse(result.entity_list[i].relevance.Value);
-                        if (relevance >= confidenceThreshold)
+                        if (result.entity_list[i].relevance != null)
                         {
-                            entitiesIds.Add(result.entity_list[i].id.Value);
+                            int relevance = int.Parse(result.entity_list[i].relevance.Value);
+                            if (relevance >= confidenceThreshold)
+                            {
+                                entitiesIds.Add(result.entity_list[i].id.Value);
+                            }
                         }
                     }
                 }
