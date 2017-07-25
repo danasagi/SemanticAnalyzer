@@ -30,7 +30,7 @@ namespace SemanticAnalyzer
              * \ /
              *  V
              */
-            //return MeaningCloud.AnalyzeArticle(articleData.Text);
+            //return MeaningCloud.AnalyzeArticle(articleData.SiteName, articleData.Text);
             throw new AggregateException();
         }   
 

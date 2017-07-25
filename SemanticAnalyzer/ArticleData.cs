@@ -8,8 +8,8 @@
             Text = text;
             SiteName = siteName;
         }
-        string Title { get; set; }
-        string Text { get; set; }
-        string SiteName { get; set; }
+        public string Title { get; set; }
+        public string Text { get; set; }
+        public string SiteName { get; set; }
     }
 }
