@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArticleData.cs" />
     <Compile Include="Consts.cs" />
     <Compile Include="MeaningCloud.cs" />
     <Compile Include="Program.cs" />
