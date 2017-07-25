@@ -9,6 +9,7 @@ namespace SemanticAnalyzer
     public static class Consts
     {
         public const string SourcesBaisPath = @"SourcesBaisFile.csv";
+        public const string OppositePath = @"OppositeFile.txt";
         public const string KeyAndLang = "key=d56be77678d4001808974084056a1712&of=json&lang=en&ilang=en&";
         public const string Header = "application/x-www-form-urlencoded";
         public const string RequestOptions = "&tt=a&uw=y";

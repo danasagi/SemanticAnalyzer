@@ -27,10 +27,12 @@ namespace SemanticAnalyzer
             /**
              *this is going to be the main method: 
              */
+            //FileUtils.ReadOppositeOpinion(Consts.OppositePath);
             Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
             FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
             MeaningCloud.AnalyzeArticle("src", "url", Consts.t, sourcesBais);
             FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+            FileUtils.WriteOppositeOpinion(Consts.OppositePath);
         }
     }
 }

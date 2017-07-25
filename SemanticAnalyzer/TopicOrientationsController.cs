@@ -55,6 +55,9 @@ namespace SemanticAnalyzer
     public class TopicAgenda
     {
         public string Name { get; set; }
+
         public int Agenda  { get; set; }
+
+        public string OppositeOpinionUrl { get; set; }
     }
 }

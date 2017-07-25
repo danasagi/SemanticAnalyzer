@@ -22,7 +22,21 @@ namespace SemanticAnalyzer
                 return false;
             }
 
-            return other.entitiesIds.Where((t, i) => this.entitiesIds[i] != t).Any();
+            for (int i=0; i< other.entitiesIds.Count; i++)
+            {
+                if (!this.entitiesIds[i].Equals(other.entitiesIds[i]))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+            //    return other.entitiesIds.Where((t, i) => !this.entitiesIds[i].Equals(t)).Any();
+        }
+
+        public override string ToString()
+        {
+            return string.Join(" ", this.entitiesIds);
         }
 
         public override bool Equals(object obj)
@@ -63,7 +77,7 @@ namespace SemanticAnalyzer
     /// </summary>
     public class OppositeOpinion
     {
-        private static Dictionary<EntitySet, Dictionary<SentimentScore, string>> EntitySetToOpinionToLink = new Dictionary<EntitySet, Dictionary<SentimentScore, string>>();
+        public static Dictionary<EntitySet, Dictionary<SentimentScore, string>> EntitySetToOpinionToLink = new Dictionary<EntitySet, Dictionary<SentimentScore, string>>();
 
         public static void AddItem(List<string> entitiesIds, string url, SentimentScore score)
         {

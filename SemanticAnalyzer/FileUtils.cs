@@ -113,5 +113,50 @@ namespace SemanticAnalyzer
             }
             File.WriteAllText(sourcesBaisPath, sourcesBaisOutput.ToString());
         }
+
+        public static void ReadOppositeOpinion(string path)
+        {
+            System.IO.StreamReader file = new System.IO.StreamReader(path);
+            string line = file.ReadLine();
+
+            while (line != null)
+            {
+                List<string> entitiesIds = line.Split(' ').ToList();
+                EntitySet entitySet = new EntitySet(entitiesIds);
+                OppositeOpinion.EntitySetToOpinionToLink.Add(entitySet, new Dictionary<SentimentScore, string>());
+                line = file.ReadLine();
+
+                if (line != null)
+                {
+                    var scoreToUrlList = line.Split('\t').ToList();
+                    foreach (var scoreToUrl in scoreToUrlList)
+                    {
+                        if (scoreToUrl != string.Empty)
+                        {
+                            var scoreToUrlArray = scoreToUrl.Split(' ');
+                            var score = (SentimentScore)Enum.Parse(typeof(SentimentScore), scoreToUrlArray[0]);
+                            OppositeOpinion.EntitySetToOpinionToLink[entitySet].Add(score, scoreToUrlArray[1]);
+                        }
+                    }
+                }
+
+                line = file.ReadLine();
+            }
+
+            file.Close();
+        }
+
+        public static void WriteOppositeOpinion(string path)
+        {
+            var sourcesBaisOutput = new StringBuilder();
+            foreach (var item in OppositeOpinion.EntitySetToOpinionToLink)
+            {
+                sourcesBaisOutput.AppendLine(item.Key.ToString());
+                string line = item.Value.Aggregate(string.Empty, (score, url) => score + (url.Key.ToString() + " " + url.Value + "\t"));
+                sourcesBaisOutput.AppendLine(line);
+            }
+
+            File.WriteAllText(path, sourcesBaisOutput.ToString());
+        }
     }
 }
