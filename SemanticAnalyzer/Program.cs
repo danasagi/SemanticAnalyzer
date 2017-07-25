@@ -25,7 +25,7 @@ namespace SemanticAnalyzer
             /**
              *this is going to be the main method: 
              */
-            MeaningCloud.AnalyzeArticle("src", Consts.t);
+            MeaningCloud.AnalyzeArticle("source", "url", Consts.t);
         }
     }
 }
