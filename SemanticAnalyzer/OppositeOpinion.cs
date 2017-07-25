@@ -63,20 +63,20 @@ namespace SemanticAnalyzer
     /// </summary>
     public class OppositeOpinion
     {
-        private const int GoodScore = 1;
-        private const int VeryGoodScore = 2;
-        private const int BadScore = -1;
-        private const int VeryBadScore = -2;
+        private static Dictionary<EntitySet, Dictionary<SentimentScore, string>> EntitySetToOpinionToLink = new Dictionary<EntitySet, Dictionary<SentimentScore, string>>();
 
-        private static Dictionary<EntitySet, Dictionary<int, string>> EntitySetToOpinionToLink = new Dictionary<EntitySet, Dictionary<int, string>>();
-
-        public static void AddItem(List<string> entitiesIds, string url, int score)
+        public static void AddItem(List<string> entitiesIds, string url, SentimentScore score)
         {
             EntitySet set = new EntitySet(entitiesIds);
+            if (!EntitySetToOpinionToLink.ContainsKey(set))
+            {
+                EntitySetToOpinionToLink.Add(set, new Dictionary<SentimentScore, string>());
+            }
+          
             EntitySetToOpinionToLink[set][score] = url;
         }
 
-        public static string GetOppositeLink(List<string> entitiesIds, int score)
+        public static string GetOppositeLink(List<string> entitiesIds, SentimentScore score)
         {
             EntitySet set = new EntitySet(entitiesIds);
 
@@ -88,26 +88,26 @@ namespace SemanticAnalyzer
             // Looking for good score
             if (score < 0)
             {
-                if (EntitySetToOpinionToLink.ContainsKey(set) && EntitySetToOpinionToLink[set].ContainsKey(VeryGoodScore))
+                if (EntitySetToOpinionToLink.ContainsKey(set) && EntitySetToOpinionToLink[set].ContainsKey(SentimentScore.StrongPositive))
                 {
-                    return EntitySetToOpinionToLink[set][VeryGoodScore];
+                    return EntitySetToOpinionToLink[set][SentimentScore.StrongPositive];
                 }
-                else if (EntitySetToOpinionToLink.ContainsKey(set) && EntitySetToOpinionToLink[set].ContainsKey(GoodScore))
+                else if (EntitySetToOpinionToLink.ContainsKey(set) && EntitySetToOpinionToLink[set].ContainsKey(SentimentScore.Positive))
                 {
-                    return EntitySetToOpinionToLink[set][GoodScore];
+                    return EntitySetToOpinionToLink[set][SentimentScore.Positive];
                 }
             }
 
             // Looking for bed score 
             if (score > 0)
             {
-                if (EntitySetToOpinionToLink.ContainsKey(set) && EntitySetToOpinionToLink[set].ContainsKey(VeryGoodScore))
+                if (EntitySetToOpinionToLink.ContainsKey(set) && EntitySetToOpinionToLink[set].ContainsKey(SentimentScore.StrongNegative))
                 {
-                    return EntitySetToOpinionToLink[set][VeryBadScore];
+                    return EntitySetToOpinionToLink[set][SentimentScore.StrongNegative];
                 }
-                else if (EntitySetToOpinionToLink.ContainsKey(set) && EntitySetToOpinionToLink[set].ContainsKey(GoodScore))
+                else if (EntitySetToOpinionToLink.ContainsKey(set) && EntitySetToOpinionToLink[set].ContainsKey(SentimentScore.Negative))
                 {
-                    return EntitySetToOpinionToLink[set][BadScore];
+                    return EntitySetToOpinionToLink[set][SentimentScore.Negative];
                 }
             }
 
