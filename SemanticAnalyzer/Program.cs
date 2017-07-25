@@ -1,29 +1,31 @@
-﻿
-
-using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using RestSharp;
-using Newtonsoft.Json;
-
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Program.cs" company="">
+//   
+// </copyright>
+// <summary>
+//   The program.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
 
 namespace SemanticAnalyzer
 {
+    /// <summary>
+    /// The program.
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// The main.
+        /// </summary>
         public static void Main()
         {
-            //SandBox.GetEntitiesByText(Consts.t);
+            // SandBox.GetEntitiesByText(Consts.t);
             // SandBox.GetSentimentsByText(Consts.text);
 
             /**
              *this is going to be the main method: 
-             */ 
-            MeaningCloud.AnalyzeArticle(3, 70, Consts.t);
+             */
+            MeaningCloud.AnalyzeArticle(Consts.t);
         }
     }
 }
