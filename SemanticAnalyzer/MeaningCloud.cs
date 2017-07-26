@@ -32,11 +32,19 @@ namespace SemanticAnalyzer
 
             List<string> entities = GetEntitiesByText(text, numEntities, confidenceThreshold);
             var sentiment = GetSentimentsByText(text, entities);
+            if (sentiment == null)
+            {
+                return null;
+            }
             OppositeOpinion.AddItem(entities, url, sentiment.GeneralScore);
             var oppositeLink = OppositeOpinion.GetOppositeLink(entities, sentiment.GeneralScore);
 			FileUtils.UpdateSourcesBais(sourcesBais, source, sentiment);
 
             Count++;
+            if (Count % 1000 == 0)
+            {
+                System.Console.WriteLine("reached " + Count);
+            }
             if (Count > 20000)
             {
                 Consts.Key = niritsKey;
@@ -93,6 +101,10 @@ namespace SemanticAnalyzer
                 var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);
+                if (result == null || result.score_tag == null || result.score_tag.Value == null)
+                {
+                    return null;
+                }
                 sentiment.GeneralScore = ParseScore(result.score_tag.Value);
                 foreach (var e in result.sentimented_entity_list)
                 {
