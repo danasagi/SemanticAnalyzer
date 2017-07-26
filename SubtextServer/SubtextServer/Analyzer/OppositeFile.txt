@@ -1,0 +1,984 @@
+2175fdcac2
+Positive http://www.telegraph.co.uk/news/ww1-archive/12213910/Daily-Telegraph-December-4-1916.html	
+
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+467865f1c5 d29f412b4b
+Negative http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+
+Neutral http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+
+Neutral http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+afcc2c5bde
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+__2810778859080464127
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+146b84b92b 467865f1c5
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+e328525500
+Negative http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+
+Neutral http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+
+Neutral http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+
+Neutral http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+__1188279264948192375 __2772230076222999797 __6405962441456505109
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+467865f1c5
+Neutral http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+
+Neutral http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+3d0a16c68d
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+__12821489601211998121 __15248121818639667244 __6160534572114350866
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+467865f1c5 d29f412b4b
+Negative http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+__11562738502786125994 __14417665932681505874 d29f412b4b
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+786614403d
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+__6934646409099640514
+Negative http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+01d0d69c7d
+Positive http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+467865f1c5
+Neutral http://www.telegraph.co.uk/promotions/12213566/paterson.html	
+__2566098403452790255 467865f1c5 6ba0075b83
+Neutral http://www.telegraph.co.uk/comment/letters/12191074/Letters-Foreign-bureaucrats-weighing-in-on-the-EU-debate-will-only-push-us-away.html	
+467865f1c5
+Neutral http://www.telegraph.co.uk/comment/telegraph-view/12192213/The-voters-deserve-to-know-the-full-facts-about-immigration.html	
+__6146171444721476184 __7246403718556326773 083d2f75d8
+Positive http://www.telegraph.co.uk/culture/music/music-news/12192781/Radio-3-announces-controversial-shake-up-of-jazz-programming.html	
+__9228630482393355253
+Neutral http://www.telegraph.co.uk/education/educationnews/12192543/Children-with-a-gilded-life-should-be-allowed-to-learn-from-failure-says-former-head-of-Eton.html	
+__5171144246645145968 __8962295640930392070
+Negative http://www.telegraph.co.uk/news/worldnews/middleeast/syria/12196579/Syrian-regime-negotiator-says-he-wont-talk-to-opposition-counterpart-until-he-shaves-his-beard.html	
+__1797671362599500632 8b8d0cb92d
+Positive http://www.telegraph.co.uk/news/12195080/World-Down-Syndrome-Day-5-inspiring-stories.html	
+__15111933538679915120
+Positive http://www.telegraph.co.uk/news/newstopics/howaboutthat/12197318/Rags-to-riches-Cue-Cards-bid-for-1million-glory-at-Cheltenham-Gold-Cup.html	
+__3737963334748495501
+Neutral http://www.telegraph.co.uk/news/uknews/law-and-order/12196622/Scientist-Samantha-Ho-beheaded-by-husband-to-protect-her-from-X-Factor-dancers.html	
+__4264856196534502902
+Positive http://www.telegraph.co.uk/sport/rugbyunion/schools-cup/11898908/NatWest-Schools-Cup-2015-16-Jamie-George-impressed-by-standard-of-finals-day-at-Twickenham.html	
+39da22da11 9666ffe62b
+Positive http://www.telegraph.co.uk/sport/fantasy-cheltenham/12196981/Telegraph-Fantasy-Racing-Cheltenham-Festival-Day-Four-Preview.html	
+146b84b92b 467865f1c5
+Positive http://www.telegraph.co.uk/comment/telegraph-view/12183974/The-EU-debate-is-widening-into-a-discussion-about-David-Cameron.html	
+__4186902774248627144
+Negative http://www.telegraph.co.uk/news/uknews/crime/12185835/Notorious-criminal-John-Goldfinger-Palmer-shot-in-only-part-of-home-with-no-CCTV.html	
+24c385a3b1
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12170652/win-sony-smartwatch-electronics-kit.html	
+__8863334362543762527 a258481aec
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12171779/vodafone-competition-terms-and-conditions.html	
+467865f1c5 c2676e0f01
+Positive http://www.telegraph.co.uk/sponsored/business/business-reporter/12179179/internet-security-by-designs.html	
+__13538929231459579040 6d25b01cc5
+Positive http://www.telegraph.co.uk/sponsored/business/workplace-equality/12177830/transgender-in-mainstream-culture.html	
+__3083099499600237986 cbba07ce39
+Positive http://www.telegraph.co.uk/sponsored/business/workplace-equality/12178135/parental-leave-for-same-sex-couples.html	
+683f4ceaad
+Positive http://www.telegraph.co.uk/sponsored/business/workplace-equality/12178045/lgbt-friendly-workplaces.html	
+__4171986692493799888
+Positive http://www.telegraph.co.uk/sponsored/business/workplace-equality/12178162/history-of-the-bfi-flare-festival.html	
+75644e099a
+Positive http://www.telegraph.co.uk/sponsored/health/healthcare-innovation/12179634/innovative-healthcare-products.html	
+75644e099a
+Positive http://www.telegraph.co.uk/sponsored/health/healthcare-innovation/12180485/worldwide-access-to-medical-treatment.html	
+d29f412b4b
+Positive http://www.telegraph.co.uk/sponsored/business/the-elevator/12186555/hsbc-elevator-competiton.html	
+2f7fb2b8ef
+Positive http://www.telegraph.co.uk/expat/expatlife/12186245/Emma-Freud-Can-the-psychics-of-New-York-predict-what-will-happen-to-my-family-next.html	
+__9664510726997513861
+Neutral http://www.telegraph.co.uk/comment/letters/12185397/Letters-Silencing-Eurosceptics-will-send-undecided-voters-to-the-Brexit-camp.html	
+22478879df
+Positive http://www.telegraph.co.uk/comment/12186070/The-more-languages-we-speak-the-merrier-we-all-are.html	
+__17854033535972525989
+Positive http://www.telegraph.co.uk/comment/telegraph-view/12185484/The-Budget-must-be-bold-and-conservative.html	
+297df9b2d4
+Positive http://www.telegraph.co.uk/culture/tvandradio/downton-abbey/9765334/Dan-Stevens-Why-I-left-Downton-Abbey.html	
+__7566888843062771485
+Positive http://www.telegraph.co.uk/education/educationnews/12185408/Councils-to-be-cut-out-of-30bn-funding-under-government-plans-to-empower-schools.html	
+__1598528481523596127 02b09212aa 30e28ef660
+Negative http://www.telegraph.co.uk/technology/12186473/I-should-like-to-raise-my-hat-to-the-man-who-conquered-.html	
+__8670325219630480293 80970fcdd0 c8707269fd
+Neutral http://www.telegraph.co.uk/education/educationnews/12186124/Ghost-school-that-costs-12k-a-day-to-keep-closed.html	
+__6645659458403412663 __9906621348048870227 10ae72aa5f
+Neutral http://www.telegraph.co.uk/education/universityeducation/student-life/12185814/Alex-Davis-British-Jews-are-sticking-together-at-university-but-is-anti-semitism-to-blame.html	
+__10083785395259210358
+Positive http://www.telegraph.co.uk/education/educationnews/12186635/More-students-likely-to-fail-due-to-delays-in-summer-exams-courses.html	
+__7062188162152708814 333490a66a
+Neutral http://www.telegraph.co.uk/education/educationnews/12186770/Private-schools-move-to-accept-more-black-students-as-pupils-living-in-wealthy-cocoon.html	
+__17236660261569845881
+Positive http://www.telegraph.co.uk/sport/rugbyunion/sevens-world-series/12125003/HSBC-World-Rugby-Sevens-Series-2015-16-Schedule-calendar-fixtures-and-results.html	
+
+Positive http://www.telegraph.co.uk/sport/rugbyunion/sevens-world-series/12126283/HSBC-World-Rugby-Sevens-Series-2015-16-All-time-points-and-try-scorers.html	
+__1522696391427105933 24c385a3b1
+Positive http://www.telegraph.co.uk/sport/fantasy-cheltenham/12186356/Telegraph-Fantasy-Cheltenham-Who-are-the-most-popular-trainers-and-jockeys-so-far.html	
+
+Positive http://www.telegraph.co.uk/sport/fantasy-cheltenham/12186604/Telegraph-Fantasy-Cheltenham-Everything-you-need-to-know.html	
+d29f412b4b
+Positive http://www.telegraph.co.uk/news/uknews/road-and-rail-transport/12078912/UK-commuters-spend-up-to-six-times-as-much-on-rail-fares-as-European-passengers.html	
+
+Neutral http://www.telegraph.co.uk/news/ww1-archive/12072932/Daily-Telegraph-January-4-1916.html	
+__12733499223572349790
+Negative http://www.telegraph.co.uk/sport/cricket/international/southafrica/12080987/Hashim-Amla-stands-up-for-South-Africa-at-the-best-possible-time-against-England.html	
+252e9cf556
+Neutral http://www.telegraph.co.uk/men/active/recreational-cycling/12077587/Lycra-lout-cyclists-stop-On-city-streets-bikes-are-for-transport-not-sport.html	
+__1310511865696593645 c10236442a
+Positive http://www.telegraph.co.uk/sport/rugbyunion/international/sixnations/12081583/Six-Nations-sides-must-realise-it-is-time-to-change.html	
+0cffbb9bb0
+Negative http://www.telegraph.co.uk/news/worldnews/europe/austria/12144259/Austrian-Alps-avalanche-Czech-skiers-killed-in-Tyrol.html	
+__13767183760610629487 __7510382770184099418
+Positive http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/12143592/I-said-Id-never-do-more-than-three-years-on-the-tiles-says-Topps-Tiles.html	
+2175fdcac2
+Positive http://www.telegraph.co.uk/comment/telegraph-view/12143001/Lalala-land.html	
+__9500273362439021236
+Positive http://www.telegraph.co.uk/comment/letters/12143501/Letters-It-is-time-for-Tory-MPs-who-want-Brexit-to-stand-up-and-be-counted.html	
+__10376799132028899719
+Positive http://www.telegraph.co.uk/comment/12143328/Is-Alexander-the-Great-depicted-in-this-Oxfordshire-church.html	
+146b84b92b 467865f1c5
+Positive http://www.telegraph.co.uk/comment/12144436/EU-deal-is-not-legally-binding-in-any-way.html	
+37f107638b b48a7bca32 d29f412b4b
+Negative http://www.telegraph.co.uk/comment/12144414/Do-animal-rights-activists-want-to-prolong-badgers-agony.html	
+7d830b2f99 afcc2c5bde
+Negative http://www.telegraph.co.uk/finance/oilprices/12084237/saudi-arabia-iran-tensions-brent-crude-oil-hits-11-year-low.html	
+__6009398625235959050
+Negative http://www.telegraph.co.uk/news/worldnews/northamerica/usa/12086109/Police-officer-accused-of-perjury-in-case-of-Sandra-Bland-death.html	
+
+Positive http://www.telegraph.co.uk/finance/personalfinance/expat-money/12084761/Dealing-with-unemployment-as-an-expat-a-personal-view.html	
+9054ab8faf aff8a328a0 beac1b545b
+Negative http://www.telegraph.co.uk/finance/markets/marketreport/12085653/BAE-gains-from-US-hopes-as-miners-slow-the-blue-chips.html	
+608317864e
+Neutral http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/12085640/Sports-Direct-builds-stake-in-Umbro-owner.html	
+
+Positive http://www.telegraph.co.uk/finance/personalfinance/investing/funds/12083417/Strong-demand-for-leisure-top-income-investor-of-2015-on-shares-hes-buying-now.html	
+__8122642415864176516 11ddff2bb0 98db781864
+Positive http://www.telegraph.co.uk/sport/cricket/international/england/12138865/South-Africa-question-legality-of-freakish-Ben-Stokes-catch-to-dismiss-AB-de-Villiers.html	
+7723685c12
+Positive http://www.telegraph.co.uk/sport/football/teams/arsenal/12084972/Piers-Morgan-to-partner-Arsenal-legend-Ian-Wright-on-BBC-Radio-5-Live.html	
+
+Neutral http://www.telegraph.co.uk/sport/football/teams/liverpool/12131661/Liverpool-transfer-deadline-day-news-rumours-live.html	
+
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12131790/Chelsea-transfer-news-and-rumours-live.html	
+2aa43990cf
+Negative http://www.telegraph.co.uk/culture/tvandradio/8298771/Midsomer-Murders-15-mysterious-facts.html	
+9b5f2c8d18
+Neutral http://www.telegraph.co.uk/sport/football/football-transfers/12131831/Transfer-deadline-day-news-and-rumours-live.html	
+__12036118971907949489 __12376651319548700249 __1636123719595495594
+Positive http://www.telegraph.co.uk/sponsored/travel/things-to-do-in-singapore/12179494/olympus-tough-camera.html	
+__16397156805351614565
+Negative http://www.telegraph.co.uk/lifestyle/pets/12180380/Dog-thieves-should-face-tougher-punishments-to-reflect-their-heart-breaking-crimes-says-Tory-MP.html	
+__16447274081244829431 __1868189660420254940 6ba0075b83
+Negative http://www.telegraph.co.uk/education/universityeducation/12179962/Row-over-SNP-funding-cuts-for-poor-university-students.html	
+__9066358085737542614
+Positive http://www.telegraph.co.uk/education/12180686/Teachers-can-be-very-wealthy-individuals-Ofsted-chief-says.html	
+467865f1c5
+Neutral http://www.telegraph.co.uk/comment/letters/12179701/Letters-Camerons-approach-to-the-EU-puts-the-political-elite-before-his-party.html	
+__6343286198368909756
+Positive http://www.telegraph.co.uk/sport/fantasyfootball/12180720/Telegraph-Fantasy-Football-Can-Arsenal-and-Spurs-capitalise.html	
+__1913036800145615742 __3159817733598500127
+Positive http://www.telegraph.co.uk/sport/othersports/ufc/12181161/UFC-196-Conor-McGregor-similar-to-David-Beckham-in-PR-understanding-and-his-value-to-UFC-market.html	
+__13763557070011667669 __2772230076222999797
+Positive http://www.telegraph.co.uk/sport/rugbyunion/schools-cup/12181258/NatWest-Schools-Cup-2015-16-Millfield-and-Sedbergh-renew-rivalries-in-U15-semi-finals-at-Allianz-Park.html	
+8839814bd3
+Negative http://www.telegraph.co.uk/sport/football/teams/liverpool/12181018/liverpool-vs-manchester-city-premier-league-live.html	
+__16552236341026507998 1961587f47 4ac02b89f4
+Positive http://www.telegraph.co.uk/sport/football/teams/manchester-united/12179707/Manchester-United-vs-Watford-live-Premier-League.html	
+
+Positive http://www.telegraph.co.uk/finance/personalfinance/pensions/12180995/People-in-Scotland-could-retire-two-years-earlier-than-the-rest-of-the-UK-Minister-suggests.html	
+317a4037d6
+Positive http://www.telegraph.co.uk/news/worldnews/europe/france/12143556/1957-Ferrari-335-S-Spider-Scaglietti-breaks-auction-sale-for-racing-car-at-24.7-million.html	
+
+Neutral http://www.telegraph.co.uk/news/worldnews/northamerica/usa/12141591/Earth-Wind-and-Fire-founder-Maurice-White-dies-aged-74.html	
+3706404535
+Neutral http://www.telegraph.co.uk/news/health/12143070/Im-not-ashamed-I-had-post-natal-depression.-But-so-many-women-are.html	
+872d7cf8bd
+Neutral http://www.telegraph.co.uk/news/uknews/road-and-rail-transport/12142769/Have-Tube-unions-finally-realised-strikes-do-more-harm-than-good.html	
+__16255843538934271968
+Positive http://www.telegraph.co.uk/news/newstopics/howaboutthat/12143382/Sea-lion-wanders-into-upscale-restaurant-casually-takes-a-nap.html	
+__17465602285108734661
+Neutral http://www.telegraph.co.uk/news/celebritynews/12143016/Great-British-Bake-Off-winner-Nadiya-Hussain-forced-to-apologise-for-swearing-on-lunchtime-TV.html	
+__12940545380979124524 __15291004347158898661
+Neutral http://www.telegraph.co.uk/news/health/news/12143395/Blood-test-to-spot-five-deadly-cancers-could-prevent-thousands-of-deaths.html	
+22c0bec63e
+Negative http://www.telegraph.co.uk/sport/football/teams/arsenal/12143250/Arsenal-manager-Arsene-Wenger-backs-Gary-Neville-but-offers-warning-to-big-name-manager.html	
+__17870309435412198041 1df63c0edb
+Positive http://www.telegraph.co.uk/sport/football/teams/everton/12143332/Everton-ready-to-reward-blossoming-Ross-Barkley-with-new-contract.html	
+__10267329860549176504
+Positive http://www.telegraph.co.uk/sport/football/teams/bournemouth/12143591/Bournemouths-Benik-Afobe-comes-full-circle-as-he-prepares-to-face-former-club-Arsenal.html	
+__13950849794278729652
+Positive http://www.telegraph.co.uk/sport/football/teams/newcastle-united/12143631/Newcastle-manager-Steve-McClaren-takes-inspiration-from-Roberto-Martinez-and-his-Wigan-escape-acts.html	
+__12821489601211998121 __15248121818639667244 __6160534572114350866
+Positive http://www.telegraph.co.uk/sponsored/sport/corporate-golf-events/12213954/moet-hennessy-team-wins-sportingclass-industry-invitational.html	
+467865f1c5 bb5de822e5 d29f412b4b
+Positive http://www.telegraph.co.uk/comment/letters/12139095/Letters-A-vote-for-Brexit-is-the-only-real-vote-for-European-Union-reform.html	
+e328525500
+Neutral http://www.telegraph.co.uk/technology/facebook/12140003/creepy-facebook-friends-day-algorithm.html	
+5cf7628588
+Neutral http://www.telegraph.co.uk/education/educationnews/12139466/Bright-state-school-pupils-put-off-by-intimidating-Oxbridge-admission-systems.html	
+199600442b 80752dc4c2
+Negative http://www.telegraph.co.uk/technology/google/12139708/Justin-Bieber-video-is-most-complained-about-of-all-time-on-YouTube.html	
+__12073136266638027494 __6281802410865038067 __8714513630136556965
+Positive http://www.telegraph.co.uk/comment/telegraph-view/12139024/High-and-dry-moon.html	
+__2588454471713551550 616b3ea15a
+Neutral http://www.telegraph.co.uk/education/universityeducation/student-life/12139700/Let-Cecil-Rhodes-debate-fall-there-are-broader-aims-to-focus-on.html	
+__13511439264907818051 __5156337710133461229 029db85d48
+Positive http://www.telegraph.co.uk/education/educationquestions/12140106/Primary-school-grammar-test-How-many-can-you-get-right.html	
+8887d9b3c2
+Positive http://www.telegraph.co.uk/education/educationnews/12139771/University-free-speech-society-faces-being-ban-for-speaking-out.html	
+__9285095660821095760 24c385a3b1
+Neutral http://www.telegraph.co.uk/education/universityeducation/12140384/tory-student-badger-culling-social-conservative-york-student.html	
+__11083358657994172055
+Positive http://www.telegraph.co.uk/education/educationquestions/12140819/Could-you-complete-this-tough-maths-challenge-for-schoolchildren.html	
+5cf7628588 d29f412b4b fe7e8600a6
+Positive http://www.telegraph.co.uk/education/educationnews/12141077/Half-of-Oxford-students-come-from-state-schools.html	
+__10202475994176047034 __2588454471713551550
+Neutral http://www.telegraph.co.uk/education/universityeducation/12140738/Students-who-say-Rhodes-must-fall-should-be-celebrated-not-sneered-at.html	
+__12864588164970979334 __709474758131519325
+Positive http://www.telegraph.co.uk/sponsored/sport/juniorgolf/12213609/junior-golf-jamie-li-offers-advice-to-quinto-do-lago-finalists.html	
+__7818195661816241966
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-to-kenya/12133937/responsible-tourism-masai-mara.html	
+__3559359029874047134 __5755831402988629122 380e054462
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-to-kenya/12134500/the-ultimate-Kenya-experience.html	
+__14702586935890205579 380e054462
+Neutral http://www.telegraph.co.uk/sponsored/travel/holidays-to-kenya/12133822/kenyas-blend-of-beach-and-inland-beauty.html	
+380e054462
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-to-kenya/12133661/amazing-wildlife-and-safaris.html	
+__14228757437424922665 b604633911
+Positive http://www.telegraph.co.uk/sponsored/motoring/diesel-performance/12106534/diesel-car-performance.html	
+__10065719648651549158
+Positive http://www.telegraph.co.uk/sponsored/motoring/commercial-vehicle-guide/12120513/buying-a-van-tips.html	
+__1581503063041792934 7266294f7b
+Positive http://www.telegraph.co.uk/sponsored/motoring/commercial-vehicle-guide/12119935/van-racking-tips.html	
+__14513084159737361514
+Positive http://www.telegraph.co.uk/sponsored/motoring/commercial-vehicle-guide/12133922/ingenious-van-decorations.html	
+__16532842981487150088 __6511155792793115894
+Positive http://www.telegraph.co.uk/sponsored/motoring/commercial-vehicle-guide/12120647/vw-caddy-review.html	
+__13783787865212523292 __17863174275866761643 __7801985386050922969
+Positive http://www.telegraph.co.uk/sponsored/motoring/commercial-vehicle-guide/12133719/best-van-conversions.html	
+__16355515433648141774 __16529362043008529761 __3314446922231386607
+Positive http://www.telegraph.co.uk/sponsored/motoring/commercial-vehicle-guide/12121891/create-the-perfect-van-sign.html	
+__10065719648651549158 __6229142360221875404 __721807760250710375
+Positive http://www.telegraph.co.uk/sponsored/motoring/commercial-vehicle-guide/12120740/vw-transporter-review.html	
+__9038911575077597085
+Negative http://www.telegraph.co.uk/news/worldnews/asia/southkorea/12103012/South-Korea-prosecutors-seek-20-years-for-American-over-murder.html	
+
+Neutral http://www.telegraph.co.uk/sport/football/teams/manchester-united/12102470/Man-Utd-transfer-news-and-rumours-on-Saturday-United-to-target-wantaway-Madrid-star-James-Rodriguez.html	
+__7891878254841217595 c67e699631 d29f412b4b
+Positive http://www.telegraph.co.uk/finance/newsbysector/energy/oilandgas/12097888/Premier-Oil-to-swallow-Eons-UK-North-Sea-assets-for-120m.html	
+__9156364870747488145 835c6ae83b b8ad79f24c
+Positive http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/leisure/12097942/AB-InBev-to-raise-at-least-25bn-from-blockbuster-bond-sale.html	
+
+Positive http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/telecoms/12096982/Create-European-Ofcom-to-avoid-mobile-market-rip-offs-policymakers-say.html	
+00d6211404
+Positive http://www.telegraph.co.uk/sport/football/teams/aston-villa/12098452/Aston-Villa-manager-Remi-Garde-confident-Bordeaux-defender-Lamine-Sane-will-join-troubled-club-on-loan.html	
+__1204471098310298722
+Positive http://www.telegraph.co.uk/news/worldnews/centralamericaandthecaribbean/mexico/12098337/El-Chapo-lawyer-wants-to-call-Sean-Penn-to-Mexican-court.html	
+__3674994842150216918 __764635488463669084 22478879df
+Neutral http://www.telegraph.co.uk/sport/othersports/boxing/david-haye/12098415/David-Haye-I-feared-that-I-had-lost-use-of-an-arm.html	
+80970fcdd0
+Positive http://www.telegraph.co.uk/sport/football/teams/liverpool/12096559/Liverpool-transfer-news-and-rumours-Reds-to-battle-Real-Madrid-for-Monaco-wonderkid-Kylian-Mbappe.html	
+ff8c4bdf84
+Neutral http://www.telegraph.co.uk/technology/news/12096872/Simple-blood-test-could-detect-cancers-early.html	
+253b90c761
+Neutral http://www.telegraph.co.uk/technology/apple/iphone/12096829/Siri-can-beatbox-heres-how-to-make-your-iPhone-bust-out-a-beat.html	
+
+Neutral http://www.telegraph.co.uk/technology/internet/12096847/Bosses-can-snoop-on-workers-private-emails-and-messages-European-court-rules.html	
+__12745854710387730399 __569547270023627090 __6832450884871794552
+Positive http://www.telegraph.co.uk/sponsored/business/the-elevator/12095022/cross-sector-business-partnership.html	
+2f864ba184
+StrongPositive http://www.telegraph.co.uk/sport/fantasyfootball/12097335/Get-121-today-on-a-Chelsea-Manchester-City-and-Tottenham-treble.html	
+__6931749964941692662
+Neutral http://www.telegraph.co.uk/finance/personalfinance/bank-accounts/12134246/Banks-want-me-get-an-online-account-and-use-contactless-cards-but-I-refuse.html	
+0c3b9ef232 fcd15a4894
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12136813/Guus-Hiddink-admits-he-was-shocked-at-John-Terry-revealing-he-would-not-be-offered-a-new-Chelsea-contract.html	
+__12811332620104776895 __14652313709321173034
+Neutral http://www.telegraph.co.uk/sport/rugbyunion/international/wales/12136796/Wales-return-on-cards-for-Liam-Williams-against-Ireland-after-impressing-in-comeback.html	
+__11823543548842932012 __15684532910417819819
+Positive http://www.telegraph.co.uk/sport/football/competitions/major-league-soccer/12126592/Ottawa-Fury-in-good-hands-with-Bruce-Grobbelaar-and-Paul-Dalglish.html	
+__12499709431316371443 __4547362582448064135
+Positive http://www.telegraph.co.uk/sponsored/china-watch/business/12134018/aiib-infographic.html	
+__1686764388320013165 a258481aec
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12127619/dos-and-donts-when-working-abroad.html	
+__8863334362543762527 a258481aec
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12129649/vodafone-business-roaming-competition-terms-and-conditions.html	
+__3917189951119771694
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12127613/why-business-travel-is-going-to-get-easier.html	
+__12630590285223556914 c94f1d5ad1
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12127567/top-five-business-travel-destinations.html	
+__9076487397725526638
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12127612/lessons-from-people-who-travel-for-work.html	
+e82ce9ee89
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12127620/business-joins-the-smart-travel-revolution.html	
+__10260104673034560170 __9120709111609782511
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-sydney-new-south-wales/12125746/Sydney-highlights-in-2016.html	
+24c385a3b1
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12170652/win-sony-smartwatch-electronics-kit.html	
+__13114366033522847590
+Positive http://www.telegraph.co.uk/comment/letters/12145253/Letters-Voters-will-hold-Cameron-responsible-for-reneging-on-his-EU-pledges.html	
+2f7fb2b8ef
+Positive http://www.telegraph.co.uk/culture/music/the-beatles/12147360/John-Lennons-hair-to-be-sold-at-auction-for-more-than-12000.html	
+__4571722277777982185
+Positive http://www.telegraph.co.uk/education/educationnews/12145123/Independent-schools-must-embrace-vocational-courses-says-headmaster.html	
+04c94ca238 786614403d d29f412b4b
+Negative http://www.telegraph.co.uk/technology/broadband/12145328/Poor-broadband-threatening-recovery-warn-manufacturers.html	
+417e551d9a 98db781864
+Positive http://www.telegraph.co.uk/sport/rugbyunion/international/scotland/12135059/Scotland-have-the-edge-over-England-insists-David-Denton-ahead-of-Six-Nations-opener.html	
+__17870309435412198041 d8d061fedd
+Neutral http://www.telegraph.co.uk/sport/football/competitions/premier-league/12137170/Tom-Cleverley-says-he-will-help-team-mates-targeted-by-frustrated-Everton-supporters.html	
+80970fcdd0 8bb2e37148
+Positive http://www.telegraph.co.uk/sport/football/teams/liverpool/12135462/Liverpool-in-the-transfer-window-Why-were-they-so-quiet.html	
+467865f1c5 e4f18bfd85
+Positive http://www.telegraph.co.uk/news/newstopics/eureferendum/12139226/Priti-Patel-being-urged-to-lead-Out-campaign-in-final-hope-for-charismatic-cabinet-voice-to-back-Brexit.html	
+98db781864
+Positive http://www.telegraph.co.uk/sport/football/teams/england/12135654/England-to-play-Australia-in-pre-Euro-2016-friendly.html	
+__16552302910866924506
+Positive http://www.telegraph.co.uk/sport/othersports/polo/12135535/From-novice-oarsman-to-passionate-adventurer-Viscount-Melville-charts-family-route-as-modern-day-pioneer.html	
+__12329842749230740774 0209e4defc
+Neutral http://www.telegraph.co.uk/sponsored/finance/your-bank/12133709/online-fraud-protection.html	
+1cdc48c821
+Positive http://www.telegraph.co.uk/sport/football/teams/manchester-city/12134981/Manchester-City-have-the-worlds-best-manager-now-they-can-sign-the-worlds-best-players.html	
+__16552236341026507998 0b21b097c4
+Neutral http://www.telegraph.co.uk/sport/football/teams/manchester-united/12135476/Man-Utd-transfer-window-reaction-Why-didnt-Louis-van-Gaal-sign-anyone.html	
+__12499709431316371443 __4547362582448064135
+Positive http://www.telegraph.co.uk/sponsored/china-watch/business/12134018/aiib-infographic.html	
+__8872985737438401319 192765d4b9 e08a5dda30
+Positive http://www.telegraph.co.uk/sport/football/12146017/Revealed-How-one-mans-obsession-is-turning-China-into-a-football-superpower.html	
+__1686764388320013165 a258481aec
+Positive http://www.telegraph.co.uk/sponsored/business/working-overseas/12127619/dos-and-donts-when-working-abroad.html	
+__10220979502092258075 __18333002570635005857
+Positive http://www.telegraph.co.uk/men/active/11726055/Daniel-Bryan-what-its-like-to-be-a-short-wrestler-in-a-big-mans-world.html	
+__13008777061394391711
+Positive http://www.telegraph.co.uk/sponsored/sport/juniorgolf/10720860/turner-tips-qualifying.html	
+
+Positive http://www.telegraph.co.uk/sponsored/china-watch/culture/12146503/kung-fu-panda-3-is-a-film-for-the-world.html	
+64a20c0c7d e08a5dda30
+Positive http://www.telegraph.co.uk/sponsored/china-watch/culture/12146845/spring-festival-reunions-when-are-you-getting-married.html	
+64a20c0c7d 824381ea2d
+Positive http://www.telegraph.co.uk/sponsored/china-watch/society/12142986/GDP-growth-hits-more-than-7pc-in-23-out-of-31-provinces.html	
+__13785355520341558946
+Positive http://www.telegraph.co.uk/sponsored/china-watch/culture/12146537/year-of-the-monkey-themed-stamps.html	
+__7312351025167020161 192765d4b9 bd2ccefa37
+Positive http://www.telegraph.co.uk/sponsored/china-watch/culture/12143156/data-reveals-patterns-of-spring-festival-travel-rush.html	
+__10065719648651549158 __5323768319714434612
+Positive http://www.telegraph.co.uk/sponsored/motoring/commercial-vehicle-guide/12148684/how-to-choose-your-commercial-vehicle.html	
+__17792562718513432851
+Positive http://www.telegraph.co.uk/expat/before-you-go/12146809/Tiny-Alderney-has-big-appeal-for-those-contemplating-a-move.html	
+467865f1c5 c9647f9031
+Negative http://www.telegraph.co.uk/comment/telegraph-view/12149162/In-the-EU-referendum-you-can-bank-on-uncertainty.html	
+b5fbe00078
+Positive http://www.telegraph.co.uk/culture/tvandradio/bbc/12148787/City-slickers-are-always-suckers-for-a-rose-tinted-rural-fantasy.html	
+__5502615121985624528
+Neutral http://www.telegraph.co.uk/culture/tvandradio/bbc/12148860/Care-homes-more-expensive-than-Eton-Get-me-to-the-Real-Marigold-Hotel.html	
+__16699204341433705281 __2463176012946233132 cffc41ec82
+Positive http://www.telegraph.co.uk/culture/film/oscars/12148658/Photo-of-Academy-Award-nominees-proves-that-Oscars-are-so-white.html	
+7a2664fc70 907362c725 a4f222c5f5
+Neutral http://www.telegraph.co.uk/news/worldnews/vladimir-putin/12082215/Russia-supplying-gas-to-Ukrainian-town-during-cold-snap-after-it-pleaded-for-help.html	
+__17538308155440611798 1c59be50d7
+Positive http://www.telegraph.co.uk/sport/cricket/12078643/Sussex-announce-the-death-of-bowler-Matthew-Hobden.html	
+24546ef0fe
+Neutral http://www.telegraph.co.uk/sport/football/competitions/premier-league/12078126/Watford-1-Manchester-City-2-match-report-Agueros-late-raid-seals-lucky-win-over-Watford-warriors.html	
+d8d061fedd
+Positive http://www.telegraph.co.uk/sport/football/teams/everton/12078067/Everton-are-at-a-crossroads-and-in-danger-of-being-left-behind.html	
+__9870666281098798771 98db781864
+Positive http://www.telegraph.co.uk/sport/rugbyunion/international/england/12078623/Six-Nations-2016-If-Eddie-Jones-really-wants-to-sort-out-Englands-back-row-he-should-just-ask-Nick-Easter.html	
+__6332428168634048131 98db781864
+Neutral http://www.telegraph.co.uk/sport/cricket/international/england/12078347/Batsman-must-rediscover-the-art-of-making-centuries-to-relieve-the-pressure-on-Joe-Root-and-Alastair-Cook.html	
+5ce5cc830b 98db781864 f9a6488fa3
+Positive http://www.telegraph.co.uk/sport/rugbyunion/international/sixnations/12078260/Six-Nations-2016-Sir-Ian-McGeechans-predictions.html	
+98db781864
+Neutral http://www.telegraph.co.uk/sport/cricket/international/england/12077847/South-Africa-vs-England-second-Test-live.html	
+1bd78c0260
+Negative http://www.telegraph.co.uk/comment/telegraph-view/12077576/Littering-is-nasty-repellent-and-should-cause-shame.html	
+252e9cf556
+Neutral http://www.telegraph.co.uk/men/active/recreational-cycling/12077587/Lycra-lout-cyclists-stop-On-city-streets-bikes-are-for-transport-not-sport.html	
+735ef4214e
+Neutral http://www.telegraph.co.uk/sport/football/teams/liverpool/12077308/West-Ham-vs-Liverpool-Premier-League-live.html	
+
+Positive http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/12093202/Online-retailer-Koovs-woos-Indias-middle-classes.html	
+__9813871726144464502
+Negative http://www.telegraph.co.uk/sport/football/teams/tottenham-hotspur/12093401/Tottenham-demanding-14million-for-out-of-favour-winger-Andros-Townsend.html	
+b74476988a
+Positive http://www.telegraph.co.uk/culture/art/art-features/8199486/Giacomettis-studio-5-things-you-didnt-know.html	
+__8292596932000467081 85c9d18db8
+Positive http://www.telegraph.co.uk/sponsored/culture/italian-living/12074581/which-pasta-goes-with-which-sauce.html	
+__14328161745965815049 __18175988663025294500 85c9d18db8
+Positive http://www.telegraph.co.uk/sponsored/culture/italian-living/12074366/why-lambruscos-reputation-is-growing-fast.html	
+__11566376344462681309 85c9d18db8 d29f412b4b
+Positive http://www.telegraph.co.uk/sponsored/culture/italian-living/12072965/sourcing-the-best-ingredients.html	
+__3065940011364489531 01d0d69c7d 14fede7876
+Positive http://www.telegraph.co.uk/sponsored/culture/italian-living/12072652/italian-architecture-in-london.html	
+467865f1c5 d29f412b4b
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11963720/save-on-your-smartphone.html	
+__17811838973462853800
+Positive http://www.telegraph.co.uk/sponsored/culture/italian-living/12073018/italian-cooking-classes-in-uk.html	
+__14654069170647642691 __16080738116000750972 1fcdc3a3c4
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11963640/green-advice-for-kids.html	
+0db1b25b2b e328525500
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11969826/save-money-with-social-media.html	
+__10494365325851158833 __4647807666766550593
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11965189/why-you-should-choose-a-reward-credit-card.html	
+__5415343266285678105
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11963382/set-a-household-budget.html	
+__11669182786132059282 __2432343197965321395
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11966024/make-saving-fun-for-children.html	
+__6586148170870035219
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11965494/reduce-water-bill.html	
+__8067739470615642270 __861693050564098566
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11963388/discover-great-energy-saving-gadgets.html	
+417e551d9a 5ce5cc830b 786614403d
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11962877/check-your-council-tax-bill.html	
+969da9a3ea b446aaab10 d29f412b4b
+Positive http://www.telegraph.co.uk/sponsored/finance/household-savings/11963855/sharing-economy-saving-as-a-society.html	
+__5001943340848305475 53f2f5f917
+Positive http://www.telegraph.co.uk/sponsored/china-watch/politics/12089803/peace-and-development-central-to-xis-diplomacy.html	
+__2298978344935819024 __43296926337802789 26c656998b
+Neutral http://www.telegraph.co.uk/expat/expatlife/12092951/Emma-Freud-joins-in-with-New-Yorks-No-Pants-on-the-Subway-day.html	
+__12845351023085699183 467865f1c5 d29f412b4b
+Neutral http://www.telegraph.co.uk/comment/letters/12092179/Letters-Cutting-NHS-bureaucracy-would-free-up-funds-to-pay-doctors-better.html	
+__3922279732386954320
+Neutral http://www.telegraph.co.uk/culture/golden-globes/12041121/golden-globe-nominations-2016-winners-live.html	
+2c50c01feb a014d02bc9
+StrongPositive http://www.telegraph.co.uk/culture/music/9788056/David-Bowie-decade-by-decade.html	
+__13893836024356736730
+Neutral http://www.telegraph.co.uk/culture/music/music-news/12092639/Celebrity-Big-Brother-contestant-Angie-Bowie-does-not-yet-know-David-Bowie-is-dead.html	
+4ad6f809f7
+Positive http://www.telegraph.co.uk/culture/golden-globes/12092769/golden-globes-TV-lady-gaga-wolf-hall.html	
+a014d02bc9
+Positive http://www.telegraph.co.uk/culture/music/music-news/12092955/David-Bowie-The-legendary-singer-in-numbers.html	
+__12745854710387730399 __569547270023627090 __6832450884871794552
+Positive http://www.telegraph.co.uk/sponsored/business/the-elevator/12095022/cross-sector-business-partnership.html	
+d29f412b4b
+Positive http://www.telegraph.co.uk/sponsored/business/the-elevator/12095150/steps-to-business-growth.html	
+53f2f5f917
+Positive http://www.telegraph.co.uk/sponsored/china-watch/politics/12095834/Xi-Jinpings-foreign-trips-in-2015-belt-and-road-initiative.html	
+__7974087646932993184 438625c1fe
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-saint-lucia/12097295/saint-lucia-naturally-luxurious-for-all-types-of-holiday.html	
+__17391706583662820362 04b9bc747a c10236442a
+Neutral http://www.telegraph.co.uk/expat/expatlife/12085088/Christchurch-is-trying-to-grow-back-but-will-never-be-the-same.html	
+__17514348896780599215
+Positive http://www.telegraph.co.uk/comment/letters/12095253/Letters-Camerons-EU-benefit-reforms-could-have-unwelcome-effects-at-home.html	
+__14563901044289140273
+Neutral http://www.telegraph.co.uk/comment/telegraph-view/12098364/The-law-on-rape-is-being-misused.html	
+b225d3513e
+Negative http://www.telegraph.co.uk/culture/tvandradio/tv-and-radio-reviews/12097841/The-X-Files-reboot-isnt-very-good-say-first-reviews.html	
+146b84b92b d29f412b4b
+Positive http://www.telegraph.co.uk/comment/telegraph-view/12098634/The-Tories-must-not-fracture-over-the-EU.html	
+75b61148c3 bfda152583 f9d0871259
+Neutral http://www.telegraph.co.uk/culture/art/artsales/12098150/100-million-Picasso-at-centre-of-legal-fight.html	
+__2982129514991485837 __8847904403158771991
+Neutral http://www.telegraph.co.uk/technology/internet/12096847/Bosses-can-snoop-on-workers-private-emails-and-messages-European-court-rules.html	
+253b90c761
+Neutral http://www.telegraph.co.uk/technology/apple/iphone/12096829/Siri-can-beatbox-heres-how-to-make-your-iPhone-bust-out-a-beat.html	
+ff8c4bdf84
+Neutral http://www.telegraph.co.uk/technology/news/12096872/Simple-blood-test-could-detect-cancers-early.html	
+495d651de5
+Positive http://www.telegraph.co.uk/technology/google/12095898/Googles-driverless-cars-needed-hundreds-of-human-interventions-to-prevent-accidents-and-failures.html	
+a3fbdb9e23
+Positive http://www.telegraph.co.uk/technology/news/12097832/Apple-stands-defiant-as-PC-market-suffers-steepest-drop-in-history.html	
+0db1b25b2b 495d651de5 52690ad78e
+Positive http://www.telegraph.co.uk/technology/news/12097593/Women-in-tech-share-examples-of-misogyny-they-experience.html	
+__18352447009213877113 438625c1fe
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-saint-lucia/12081163/Win-a-simply-beautiful-holiday-to-Saint-Lucia.html	
+438625c1fe
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-saint-lucia/12087411/the-perfect-saint-lucia-activities-for-two.html	
+__12707909124847560010 __17295546457857834965 __6590944730039229828
+Positive http://www.telegraph.co.uk/sponsored/travel/12094633/Saint-Lucia-holiday-prize-draw-terms-and-conditions.html	
+438625c1fe
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-saint-lucia/12087060/explore-these-great-Saint-Lucia-events.html	
+__15220157738306963293 __3249845174346274512
+Neutral http://www.telegraph.co.uk/technology/google/google-doodle/12093512/Who-was-Charles-Perrault-Why-the-fairy-tales-you-know-may-not-be-as-they-seem.html	
+438625c1fe
+Positive http://www.telegraph.co.uk/sponsored/travel/holidays-saint-lucia/12088879/ten-unmissable-things-to-see-in-saint-lucia.html	
+e08a5dda30
+Positive http://www.telegraph.co.uk/sponsored/china-watch/politics/12095575/president-Xi-Jinpings-vision-for-2016.html	
+e08a5dda30
+Neutral http://www.telegraph.co.uk/sponsored/china-watch/society/12095628/top-10-news-events-of-china-in-2015.html	
+d29f412b4b
+Positive http://www.telegraph.co.uk/expat/expatfeedback/12094502/My-mission-to-get-Britons-abroad-registered-to-vote.html	
+__2623929913137791929 __4068081009093646052 3e256845d0
+Positive http://www.telegraph.co.uk/expat/expatnews/12093159/EU-referendum-expats-fear-time-is-running-out-to-get-voting-rights-restored-before-poll.html	
+__14793741736028821298 e08a5dda30
+Positive http://www.telegraph.co.uk/expat/expatlife/12093578/Hats-off-to-British-milliner-taking-Beijing-by-storm.html	
+ce600ca0be
+Positive http://www.telegraph.co.uk/comment/12093579/Can-the-BBC-be-kept-British-or-does-it-have-to-bow-the-knee-to-the-SNP.html	
+__2017264147319736557 __8770202584767695043 463577eb0d
+Neutral http://www.telegraph.co.uk/comment/letters/12093077/Letters-The-BMA-has-become-a-politicised-trade-union-that-puts-patient-care-last.html	
+__11420512583606939646 __5841036035210186034
+Positive http://www.telegraph.co.uk/culture/golden-globes/12092352/Golden-Globes-2016-Rosie-Huntington-Whiteley-announces-engagement-to-Jason-Statham.html	
+__13893836024356736730 a014d02bc9
+Negative http://www.telegraph.co.uk/culture/culturenews/12094123/Viewers-condemn-Big-Brother-for-showing-Angie-Bowie-breaking-down-at-news-of-David-Bowies-death.html	
+463577eb0d
+Neutral http://www.telegraph.co.uk/comment/telegraph-view/12096409/The-junior-doctors-strike-will-leave-a-bitter-legacy.html	
+__3204378389063537673 6dee90c68a
+Positive http://www.telegraph.co.uk/technology/news/12092607/HTC-Vive-pre-orders-to-start-on-February-29.html	
+98db781864
+Positive http://www.telegraph.co.uk/technology/news/12092668/Where-in-England-is-your-accent-from-This-app-can-tell-you.html	
+a2b082e273 e9deaf2b0b
+Positive http://www.telegraph.co.uk/technology/apple/12092530/Spotify-feels-the-heat-as-Apple-Music-reaches-10m-subscribers.html	
+db931772d4
+Neutral http://www.telegraph.co.uk/technology/news/12093204/This-drone-catches-other-drones-by-shooting-nets-at-them.html	
+a3fbdb9e23 a5bdfdaf19 fe05a0e8d2
+Positive http://www.telegraph.co.uk/technology/mobile-phones/12093467/Xiaomi-releases-China-only-iPhone-clone-for-under-100.html	
+b1dca63243 c3fe847011
+Negative http://www.telegraph.co.uk/technology/mobile-phones/12093757/EE-and-O2-mobile-networks-hit-by-technical-issues.html	
+786614403d
+Neutral http://www.telegraph.co.uk/education/educationnews/12092680/Cuts-to-teachers-pay-threatening-education-union-warns.html	
+__13163303992673446507 __6788933585595195560 af0e6b3e48
+Negative http://www.telegraph.co.uk/education/secondaryeducation/12093172/Mum-who-claimed-teacher-flirted-with-pupil-loses-bid-to-stop-daughters-expulsion.html	
+786614403d
+Negative http://www.telegraph.co.uk/education/educationnews/12093473/Grammar-school-expansion-legal-challenge-dropped.html	
+8faf8322a4
+Positive http://www.telegraph.co.uk/technology/news/12092799/You-can-now-summon-your-Tesla-to-your-door-by-phone.html	
+__1802158641546330392 __8024945440790883925
+Negative http://www.telegraph.co.uk/sport/football/teams/liverpool/12092518/Liverpools-new-signing-reveals-his-claustrophobia-nearly-cost-him-his-dream-move.html	
+__1692145176888995493 47e7283736
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12092816/Chelsea-news-Ruben-Loftus-Cheek-backed-to-emulate-meteroic-rise-of-Dele-Alli.html	
+22c0bec63e 62fba5ac96
+Positive http://www.telegraph.co.uk/sport/football/teams/arsenal/12092670/Arsenal-manager-Arsene-Wenger-predicts-a-frenetic-January-transfer-window.html	
+04a91de0f0
+Positive http://www.telegraph.co.uk/sport/football/teams/manchester-united/12092377/Man-Utd-transfer-news-and-rumours-United-line-up-90m-Gareth-Bale-bid.html	
+__7285342799800162229 22c0bec63e 485e2cd1d2
+Positive http://www.telegraph.co.uk/sport/football/teams/arsenal/12092365/Arsenal-transfer-news-and-rumours-Gunners-ready-to-pay-club-record-fee-for-Pierre-Emerick-Aubameyang.html	
+47e7283736
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12092402/Chelsea-transfer-news-and-rumours-Blues-ready-to-sign-Carlos-Bacca-for-30m.html	
+__13121761717257584581
+Positive http://www.telegraph.co.uk/sport/football/teams/tottenham-hotspur/12092966/Harry-Kane-says-he-does-not-want-to-join-Real-Madrid.html	
+80970fcdd0
+Neutral http://www.telegraph.co.uk/sport/football/teams/liverpool/12092438/Liverpool-transfer-news-and-rumours-Jurgen-Klopp-lines-up-Mario-Gotze-bid.html	
+__16552236341026507998 __1934772469261625151
+Negative http://www.telegraph.co.uk/sport/football/teams/manchester-united/12093013/Louis-van-Gaal-says-Manchester-United-fans-left-Old-Trafford-early-to-beat-traffic.html	
+528edbd8d8
+Positive http://www.telegraph.co.uk/sport/football/players/lionel-messi/12092806/Lionel-Messis-most-memorable-fashion-disasters.html	
+__7287202278916192683
+Positive http://www.telegraph.co.uk/sport/cricket/international/england/12093236/South-Africa-vs-England-Tourists-lifted-as-Dale-Steyn-is-ruled-out-of-Johannesburg-Test.html	
+__1983407370188026367
+Positive http://www.telegraph.co.uk/education/educationopinion/12095460/One-size-fits-all-curriculum-will-force-creative-subjects-out-of-schools.html	
+__12630962112915295797 5cf7628588
+Positive http://www.telegraph.co.uk/education/universityeducation/12094277/Cecil-Rhodes-Oxford-University-students-must-confront-views-they-find-objectionable-says-new-head.html	
+0a5f0f1f6b
+Positive http://www.telegraph.co.uk/education/educationopinion/12096747/Feminism-on-the-curriculum-doesnt-go-far-enough.html	
+__7011880379257030457 5cf7628588
+Negative http://www.telegraph.co.uk/education/educationnews/12096928/Oxford-University-students-who-dont-like-Cecil-Rhodes-should-think-about-being-educated-elsewhere-says-chancellor.html	
+d29f412b4b
+Positive http://www.telegraph.co.uk/education/expateducation/10000247/Aspirational-parents-should-be-wary-of-cowboy-tutors.html	
+2175fdcac2
+Positive http://www.telegraph.co.uk/education/expateducation/11823441/Moving-to-Spain-finding-the-right-school.html	
+a1e2acfebb bd21a1cec2 d29f412b4b
+Positive http://www.telegraph.co.uk/education/expateducation/10745471/In-France-a-parent-is-a-parent-and-a-teacher-is-a-teacher.html	
+__11921018036856218231
+Positive http://www.telegraph.co.uk/education/educationnews/12098101/Extroverts-25-per-cent-more-likely-to-earn-40000-a-year-study-finds.html	
+__4539621364165492544
+Positive http://www.telegraph.co.uk/education/universityeducation/12098355/SNPs-partial-climbdown-on-university-political-control.html	
+01d0d69c7d
+Positive http://www.telegraph.co.uk/education/educationnews/12098772/Schools-found-to-be-rejecting-pupils-who-live-just-100-yards-away.html	
+1aba664848
+Positive http://www.telegraph.co.uk/news/newstopics/howaboutthat/12086028/Wife-shares-bizarre-ramblings-of-sleep-talking-husband-with-the-internet.html	
+029f173ed9
+Negative http://www.telegraph.co.uk/news/uknews/crime/12083965/Sheep-rustlers-jailed-for-three-years-after-stealing-from-14-farms-across-the-North.html	
+__12353192680384447679
+Negative http://www.telegraph.co.uk/news/worldnews/australiaandthepacific/australia/12083952/Shark-bites-boy-on-Great-Barrier-Reef-in-second-attack-in-days.html	
+
+Negative http://www.telegraph.co.uk/news/uknews/crime/12084579/Ex-wife-of-EastEnders-murder-prime-suspect-I-cant-believe-hes-a-killer.html	
+__14341350027036036253 0f9626b293
+Positive http://www.telegraph.co.uk/news/worldnews/northamerica/usa/12083880/WhereWhitePeopleMeet-dating-site-founder-denies-racism-charge.html	
+__16545790584023824544 __7553874367805429082
+Positive http://www.telegraph.co.uk/sport/othersports/boxing/12077270/Boxing-review-2015-The-day-Tyson-Fury-finally-knuckled-down-to-the-task-of-ruling-world.html	
+__3642605442186475088
+Positive http://www.telegraph.co.uk/sport/cricket/international/england/12077679/Alastair-Cook-urges-England-to-be-relentless-as-desperate-South-Africa-turn-to-Graeme-Smith-for-inspiration.html	
+98db781864
+Neutral http://www.telegraph.co.uk/sport/cricket/international/england/12077691/England-and-Alastair-Cook-strive-for-consistency-on-the-road-back-to-the-top-of-the-Test-rankings.html	
+068b669e70 d8d061fedd f1cf5430aa
+Positive http://www.telegraph.co.uk/sport/football/teams/manchester-city/12086098/Everton-2-Manchester-City-1-Manuel-Pellegrini-fumes-at-refereeing-decisions.html	
+22c0bec63e 2f31ab3504 9f1f744528
+Positive http://www.telegraph.co.uk/sport/football/teams/arsenal/12077170/Arsenal-transfer-news-and-rumours-Gunners-battle-it-out-to-sign-Lorenzo-Insigne.html	
+__12821489601211998121 __15248121818639667244 __6160534572114350866
+Positive http://www.telegraph.co.uk/sponsored/sport/corporate-golf-events/12213954/moet-hennessy-team-wins-sportingclass-industry-invitational.html	
+__17781879774085053794 329c17d802 3936341e8e
+Positive http://www.telegraph.co.uk/sport/rugbyunion/premiership/12077715/Northampton-Saints-8-Exeter-Chiefs-3-match-report-Jim-Mallinder-to-meet-Eddie-Jones-over-role-for-Alex-King.html	
+__6645234621456761367
+Positive http://www.telegraph.co.uk/news/nhs/12083493/Heart-attack-patients-twice-as-likely-to-receive-stents-in-247-units.html	
+__221747500910076152
+Negative http://www.telegraph.co.uk/culture/culturenews/12077119/Wayne-Rogers-Trapper-John-McIntyre-in-M.A.S.H.-dies-aged-82.html	
+__12246370455805936048
+Neutral http://www.telegraph.co.uk/comment/letters/12076543/Letters-Celebrity-sport-and-time-serving-are-thin-grounds-for-public-honours.html	
+__2416774253311428499 __4614744055854077025
+Positive http://www.telegraph.co.uk/culture/tvandradio/tv-and-radio-reviews/12129841/The-Jump-2016-Louisa-Lytton-leaves-rebecca-adlington.html	
+__28462475116399567 495d651de5 d29f412b4b
+Positive http://www.telegraph.co.uk/technology/news/12075781/8-things-that-will-probably-happen-in-tech-in-2016.html	
+6351027488
+Positive http://www.telegraph.co.uk/education/educationnews/12076058/Leading-head-teacher-joins-private-tuition-company.html	
+__6207977983545196479
+Positive http://www.telegraph.co.uk/education/educationnews/12076567/Tatler-publishes-guide-to-best-state-schools-but-youll-have-to-have-deep-pockets-to-attend.html	
+__6079063623880005081 e08a5dda30
+Positive http://www.telegraph.co.uk/education/expateducation/12074839/Moving-to-China-with-kids-what-you-need-to-know.html	
+47e7283736 aa013efa70
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12077204/Chelsea-transfer-news-and-rumours-Guus-Hiddink-prepares-bid-for-teenage-prodigy-Amadou-Diawara.html	
+__7451921363106870477 __8258891150189687269
+Positive http://www.telegraph.co.uk/sport/cricket/international/pakistan/12077253/Mohammad-Amir-named-in-Pakistan-squad-after-five-year-ban-for-spot-fixing.html	
+__4089007910457959347 735ef4214e
+Positive http://www.telegraph.co.uk/sport/football/teams/west-ham/12077288/West-Ham-target-Leeds-wonderkid-Sam-Byram-in-cut-price-deal.html	
+__2268721398487972796 4f994c1e69 98db781864
+Positive http://www.telegraph.co.uk/sport/cricket/international/england/12076923/Nick-Comptons-recall-for-the-South-African-tour-will-allow-Alex-Hales-to-emerge-as-Englands-superstar.html	
+80970fcdd0
+Positive http://www.telegraph.co.uk/sport/football/teams/liverpool/12077224/Liverpool-transfer-rumours-and-news-Jurgen-Klopp-joins-race-for-Schalke-wonderkid-Leroy-Sane.html	
+6e4461ffd3 98db781864
+Positive http://www.telegraph.co.uk/sport/cricket/international/england/12077279/Victory-against-South-Africa-could-be-the-start-of-big-things-for-this-England-side.html	
+5ce5cc830b 98db781864 f9a6488fa3
+Positive http://www.telegraph.co.uk/sport/rugbyunion/12077375/Will-Greenwood-what-I-want-to-see-happen-in-2016-and-what-will-actually-happen.html	
+__6914020372336575486
+Neutral http://www.telegraph.co.uk/sport/othersports/athletics/12077346/James-Dasaolu-is-at-a-crossroads-2016-is-make-or-break-for-the-European-100m-champion.html	
+aa013efa70 da020082b1
+Positive http://www.telegraph.co.uk/sport/football/competitions/premier-league/12076449/The-Premier-League-has-become-the-new-NFL-volatile-rich-and-thoroughly-equal.html	
+aa013efa70 da020082b1
+Positive http://www.telegraph.co.uk/sport/football/competitions/premier-league/12066683/What-Premier-League-trends-can-we-expect-in-2016.html	
+__18442039417421308349
+Positive http://www.telegraph.co.uk/sport/football/12077464/Did-someone-go-too-big-on-New-Years-Eve-James-Wilson-vomits-moments-before-kick-off.html	
+a726d9a068
+Positive http://www.telegraph.co.uk/sport/football/teams/manchester-united/12077313/Javier-Hernandez-is-Germanys-player-of-the-month-again-so-why-is-he-not-at-Manchester-United.html	
+__12582654839112902543 __12727201302864768870 80970fcdd0
+Neutral http://www.telegraph.co.uk/sport/football/teams/liverpool/12077516/Liverpool-omit-fit-Daniel-Sturridge-from-selection-for-West-Ham-in-bid-to-avert-risk-of-further-absences.html	
+__815995382166712671
+Positive http://www.telegraph.co.uk/sport/rugbyunion/club/12077740/Chris-Wyles-Saracens-Mr-Consistent-personifies-clubs-ethos-that-actions-speak-louder-than-words.html	
+aa013efa70
+Negative http://www.telegraph.co.uk/sport/football/competitions/premier-league/12074284/When-does-the-January-transfer-window-open-in-2016-Premier-League.html	
+6a9ea07a9b
+Positive http://www.telegraph.co.uk/sport/horseracing/12077836/ITV-snatches-racing-rights-from-Channel-4.html	
+2a4e58db97 3d0a16c68d
+Negative http://www.telegraph.co.uk/sport/football/teams/real-madrid/12077818/Real-Madrid-forward-James-Rodriguez-chased-by-police-for-speeding-at-124mph.html	
+__10290616834234814104
+Neutral http://www.telegraph.co.uk/sport/rugbyunion/club/12077503/Freddie-Burns-ready-to-flourish-at-Leicester-under-Aaron-Maugers-vision.html	
+__13121761717257584581 d8d061fedd f1cf5430aa
+Positive http://www.telegraph.co.uk/sport/football/teams/everton/12077756/Everton-vs-Tottenham-Romelu-Lukaku-would-always-get-the-nod-over-Harry-Kane-says-Roberto-Martinez.html	
+__2823493647116785710
+Positive http://www.telegraph.co.uk/sport/football/players/steven-gerrard/12077389/Steven-Gerrard-I-wasted-time-watching-The-Office-when-I-could-have-been-coaching.html	
+7dc495fc3e
+Positive http://www.telegraph.co.uk/sport/football/teams/west-ham/12077303/Slaven-Bilic-I-know-I-could-ruin-my-legacy-at-West-Ham-but-its-worth-the-risk-for-the-club-I-love.html	
+__16704616651125196539
+Positive http://www.telegraph.co.uk/sport/othersports/cycling/mark-cavendish/12077810/Mark-Cavendish-An-Olympic-medal-is-the-only-thing-missing.html	
+aa013efa70 f9b79685ed
+Positive http://www.telegraph.co.uk/sport/football/teams/sunderland/12077794/Sunderland-and-Aston-Villa-ready-to-roll-the-dice-in-high-stakes-Premier-League-showdown.html	
+453aa927de fcd15a4894
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12077784/Crystal-Palace-vs-Chelsea-We-must-ease-burden-on-Diego-Costa-says-Guus-Hiddink.html	
+1e48b6d321 98db781864 b145f76f50
+Positive http://www.telegraph.co.uk/sport/football/players/wayne-rooney/12077427/Wayne-Rooney-must-be-Englands-main-man-at-the-European-Championships-says-Steven-Gerrard.html	
+__16552236341026507998 04a91de0f0
+Positive http://www.telegraph.co.uk/sport/football/teams/manchester-united/12077425/Man-Utd-transfer-news-Louis-van-Gaal-hints-at-move-for-striker-in-January-window.html	
+4a3297e8e5 5b62c6b828 968d36b2a5
+Positive http://www.telegraph.co.uk/sport/football/teams/arsenal/12077840/Arsenal-news-Mesut-Ozil-is-the-footballer-of-the-year-so-far-the-stats-prove-it-says-Theo-Walcott.html	
+__12581071638441986591 06ffdf159b f9b79685ed
+Positive http://www.telegraph.co.uk/sport/football/teams/aston-villa/12077832/Remi-Garde-I-will-stay-at-Aston-Villa-even-if-we-are-relegated-from-Premier-League.html	
+786614403d
+Positive http://www.telegraph.co.uk/finance/personalfinance/investing/buy-to-let/12074893/Buy-to-let-tax-raid-600-landlords-donate-42000-to-fund-judicial-review.html	
+__11012423388904893019 d29f412b4b
+Negative http://www.telegraph.co.uk/finance/economics/12076884/UK-faces-economic-storm-if-politicians-fail-to-act-warns-BCC.html	
+118b5b0c59 deffb60a5a
+Positive http://www.telegraph.co.uk/finance/personalfinance/borrowing/creditcards/12076092/New-year-credit-card-battle-Halifax-launches-longest-fee-free-balance-transfer-card.html	
+__162005764667997066 2f393abea3 d29f412b4b
+Positive http://www.telegraph.co.uk/finance/personalfinance/pensions/12076601/Just-how-much-of-a-Tory-is-George-Osborne.html	
+__1098597556736283000 __2432343197965321395
+Neutral http://www.telegraph.co.uk/finance/personalfinance/bank-accounts/12075109/Holiday-spike-in-fake-emails-from-banks.html	
+__10513257318977349692 __13881441747867626784
+Positive http://www.telegraph.co.uk/sport/football/teams/tottenham-hotspur/12076793/Mauricio-Pochettino-coy-on-Tottenhams-title-chances.html	
+e08a5dda30
+Positive http://www.telegraph.co.uk/finance/recession/china-economic-slowdown/12077208/Chinese-manufacturing-shrinks-for-fifth-consecutive-month.html	
+__5449390920117899755 7a57e419c8 a85fbb1a3b
+Positive http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/12058351/Irish-meal-maker-Cool-Beans-strikes-deal-with-Waitrose.html	
+7421f2fc6a
+Positive http://www.telegraph.co.uk/finance/economics/12077311/India-crowned-worlds-fastest-growing-aviation-market-in-2015-as-economy-takes-off.html	
+a3fb410523 d29f412b4b
+Positive http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/leisure/12077384/Dominos-launches-ultimate-hangover-angel-that-makes-ordering-pizza-even-easier.html	
+24c385a3b1
+Positive http://www.telegraph.co.uk/finance/investor/11485783/Telegraph-Investor-how-it-works.html	
+
+Negative http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/12077509/NatWest-customers-locked-out-again-as-bank-suffers-New-Years-Day-glitch.html	
+d29f412b4b
+Negative http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/12077294/New-floods-but-same-problems-the-need-to-have-adequate-insurance-and-a-faster-response-against-increased-catastrophes.html	
+38f987ea32 d29f412b4b
+Positive http://www.telegraph.co.uk/finance/economics/12077525/Europe-is-looking-up-some-good-news-to-start-2016.html	
+851023fe9e b27fa3605f
+Positive http://www.telegraph.co.uk/finance/economics/12077511/By-the-end-of-the-year-one-of-the-UKs-quoted-supermarkets-will-no-longer-be-listed.html	
+d29f412b4b
+Positive http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/12077561/Business-rates-are-putting-off-international-companies-from-coming-to-the-UK.html	
+beac1b545b
+Negative http://www.telegraph.co.uk/finance/economics/12076813/Economic-sweet-spot-of-2016-before-the-reflation-storm.html	
+d29f412b4b
+Positive http://www.telegraph.co.uk/news/uknews/road-and-rail-transport/12077558/Rail-fares-up-three-times-faster-than-wages.html	
+__1494484619785938603 __8306927193093414808 d986b760fb
+Positive http://www.telegraph.co.uk/news/uknews/12076428/This-weekend-to-be-the-busiest-for-online-dating.html	
+__11719648518350839455 __1742835514894663096 __3457016837967305945
+Negative http://www.telegraph.co.uk/news/uknews/law-and-order/12077212/Raoul-Moat-victims-family-take-Northumbria-Police-to-court.html	
+18433c48cb 883a76e136 d0933d2776
+Neutral http://www.telegraph.co.uk/news/worldnews/12076619/Cause-for-optimism-in-a-troubled-world.html	
+a311ecd837
+Negative http://www.telegraph.co.uk/news/worldnews/europe/germany/12077040/Munich-terror-alert-train-stations-evacuated.html	
+__14417733523388824872 ef97b5e137
+Neutral http://www.telegraph.co.uk/news/health/elder/12077210/Dementia-sufferers-need-company-of-loved-ones-charity-says.html	
+__11467867916740304771 aa0138268d
+Positive http://www.telegraph.co.uk/news/science/space/12077235/The-visionaries-are-making-space-travel-exciting-again.html	
+__1966380867311086074 __8018170258469335018 2430c0e203
+Negative http://www.telegraph.co.uk/news/uknews/12077239/Experts-predict-the-death-of-the-in-car-CD-player.html	
+f22e413080
+Neutral http://www.telegraph.co.uk/news/uknews/crime/12077250/CCTV-shows-masked-men-kidnapping-two-boys.html	
+146b84b92b 252e9cf556
+Neutral http://www.telegraph.co.uk/news/politics/boris-johnson/12077292/2016-will-be-the-year-of-Boris-Johnson.html	
+146b84b92b 467865f1c5
+Neutral http://www.telegraph.co.uk/news/politics/david-cameron/12077319/David-Camerons-New-Year-message-a-long-slow-walk-to-the-status-quo.html	
+__2618771892390144480
+Negative http://www.telegraph.co.uk/news/health/12077380/Care-home-patient-dies-from-severe-allergic-reaction-to-lentils.html	
+0cbf025ac7 d29f412b4b
+Positive http://www.telegraph.co.uk/news/uknews/queen-elizabeth-II/12077343/Queen-carries-out-more-engagements-than-William-Kate-and-Harry-combined.html	
+__5815186712150425616 93986ba676
+Negative http://www.telegraph.co.uk/news/obituaries/12076247/Bruno-Lonati-partisan-obituary.html	
+__15623682048522447488
+Negative http://www.telegraph.co.uk/news/health/news/12077382/Sugar-found-in-ketchup-and-Coke-linked-to-breast-cancer.html	
+__7931791706914615441
+Negative http://www.telegraph.co.uk/news/politics/labour/12077359/Simon-Danczuks-first-wife-threatens-to-change-daughters-surname-amid-sexting-allegations.html	
+__16670640301307523697
+Neutral http://www.telegraph.co.uk/news/uknews/12077430/Tony-Martin-Police-seize-car-farmer-sleeps-in-after-finding-air-rifle-in-raid.html	
+__11291008947745539363 01d0d69c7d 2a8f78d0f0
+Negative http://www.telegraph.co.uk/news/uknews/terrorism-in-the-uk/12077459/Police-firearms-officers-trained-by-SAS-to-shoot-terrorists-in-the-head.html	
+__2643761481662161175 __3974637616687429716 f51c07c719
+Negative http://www.telegraph.co.uk/news/uknews/law-and-order/12077302/Police-woman-fighting-for-life-after-New-Years-Day-crash.html	
+3e185eb422 4c1c5cf3a1 6981880f4a
+Negative http://www.telegraph.co.uk/news/worldnews/asia/afghanistan/12077381/Suicide-blast-strikes-Kabul-restaurant-popular-with-foreigners.html	
+__13816770668738194247 __15779745664497233538 __5534113029526462940
+Negative http://www.telegraph.co.uk/news/worldnews/europe/netherlands/12077201/British-man-arrested-at-Amsterdam-airport-after-making-bomb-threat.html	
+__16664666907529476961 2a8f78d0f0
+Neutral http://www.telegraph.co.uk/news/uknews/crime/12077402/Vandals-target-anti-Islamophobia-angel-in-burqa-artwork.html	
+__17966647976806560599 2a8f78d0f0
+Negative http://www.telegraph.co.uk/news/worldnews/europe/france/12077522/Belgian-terror-suspect-may-have-let-missing-attacker-stay-at-his-flat.html	
+__17327014378721164576 __4923258777044875968 beac1b545b
+Negative http://www.telegraph.co.uk/news/health/12077562/Buying-a-house-from-a-smoker-could-prove-dangerous-for-your-health-study-finds.html	
+__17163867174265689095 a4bce518a8 d64f777a7a
+Neutral http://www.telegraph.co.uk/news/uknews/12077499/Couple-miss-out-on-35m-Lotto-jackpot-after-web-blunder.html	
+__14480493540303062363
+Negative http://www.telegraph.co.uk/news/weather/12077584/Flood-warnings-for-the-South-as-severe-weather-forecast.html	
+__15412298616760780285 816a9d9de4
+Neutral http://www.telegraph.co.uk/news/politics/Jeremy_Corbyn/12077531/Diane-Abbott-criticises-hysterical-shadow-Labour-ministers-worried-about-Jeremy-Corbyns-revenge-reshuffle.html	
+__3420570611420107140 e9ba08ea58 ee9dee220a
+Positive http://www.telegraph.co.uk/news/worldnews/northamerica/usa/12077549/200-Muslim-meat-packers-fired-over-prayer-dispute.html	
+__5621304980525656365
+Negative http://www.telegraph.co.uk/news/religion/12077435/The-Church-the-police-and-the-unholy-destruction-of-Bishop-Bell.html	
+6b16477e96 c8ba3a800e d8ba5ca75e
+Neutral http://www.telegraph.co.uk/news/worldnews/asia/china/12077341/Chinese-translation-of-feted-Indian-poetry-pulled-for-racy-content.html	
+__10200937190960782422
+Negative http://www.telegraph.co.uk/news/uknews/law-and-order/12077720/Man-killed-by-pet-dog.html	
+__4744188862244709855 045c4bd46d 417e551d9a
+Negative http://www.telegraph.co.uk/news/earth/flooding/12077606/Scots-warned-to-prepare-for-second-wave-of-flooding.html	
+__10202475994176047034 __17654371455410819917 5cf7628588
+Positive http://www.telegraph.co.uk/news/society/12077476/Talent-should-always-trump-diversity.html	
+__7171164960113192229 __8197369654465214709 3ada483c64
+Negative http://www.telegraph.co.uk/news/worldnews/middleeast/israel/12077594/Israeli-soldiers-charged-with-negligence-in-Palestinian-teenager-death.html	
+60e4440d9d
+Positive http://www.telegraph.co.uk/news/uknews/road-and-rail-transport/12077462/Rail-franchises-are-monopolies-that-need-scrapping.html	
+a311ecd837
+Negative http://www.telegraph.co.uk/news/worldnews/europe/germany/12077659/Germany-on-alert-for-Islamic-State-suicide-terror-cell.html	
+__221747500910076152
+Neutral http://www.telegraph.co.uk/news/obituaries/12077495/Wayne-Rogers-actor-obituary.html	
+__4770707549083864936 20ecea59cd
+Negative http://www.telegraph.co.uk/news/uknews/12077620/The-saddest-Chrimbo-dinner-that-made-social-media-users-want-to-cry.html	
+__14976493522205205434 __2933363331667441212 __5912081624065575548
+Positive http://www.telegraph.co.uk/news/obituaries/12077310/Wilfrid-Weld-landowner-obituary.html	
+77ba036a3a 91269c4360
+Neutral http://www.telegraph.co.uk/news/worldnews/europe/turkey/12077703/Turkeys-president-says-all-he-wants-is-same-powers-as-Hitler.html	
+__6284777972731800790
+Neutral http://www.telegraph.co.uk/news/uknews/crime/12077719/Lecturer-stabbed-to-death-on-his-doorstep.html	
+__15383577891267102932 __5305464215344708448 d1ecd79606
+Positive http://www.telegraph.co.uk/news/obituaries/12077327/Dennis-Griffiths-newspaper-historian-obituary.html	
+__11474065134176639596
+Positive http://www.telegraph.co.uk/news/obituaries/12077312/Gilbert-Kaplan-conductor-obituary.html	
+ca9df0b53a f8483f542e
+Neutral http://www.telegraph.co.uk/news/worldnews/europe/serbia/12077707/A-silent-New-Year-breaks-over-the-frozen-refugee-trail.html	
+ff4cfcd21d
+Positive http://www.telegraph.co.uk/news/worldnews/middleeast/dubai/12077717/The-truth-is-skyscrapers-are-as-safe-as-houses.html	
+__17551116414663377889 __9786829411266807435
+Negative http://www.telegraph.co.uk/news/uknews/law-and-order/12077723/Grandfather-drowns-while-trying-to-rescue-dogs-ball.html	
+__16997979218082907659 4392af74a4 937edde73a
+Negative http://www.telegraph.co.uk/news/worldnews/africaandindianocean/zimbabwe/12077646/Zimbabwean-pastor-released-after-Mugabe-protest.html	
+__15082857481121613649 __1633111808441801741 __7887037260911530670
+Negative http://www.telegraph.co.uk/news/uknews/law-and-order/12077752/Police-officers-disciplined-for-using-cops-cars-for-recycling-visiting-girlfriends-and-for-drunken-rants-at-colleagues.html	
+__18051277442308609257 466017df9e ba48148fda
+Negative http://www.telegraph.co.uk/news/uknews/law-and-order/12077801/Drunken-scenes-in-Manchester-turned-into-hilarious-works-of-art.html	
+701f8897f1 e08a5dda30
+Neutral http://www.telegraph.co.uk/news/worldnews/asia/taiwan/12058825/China-sends-warning-to-Taiwan-as-it-prepares-to-elect-first-woman-president.html	
+__8319231566422922127
+Neutral http://www.telegraph.co.uk/news/bbc/12077603/Archers-fans-left-frustrated-at-65th-anniversary-cliffhanger.html	
+__15688658556646713521 786614403d
+Neutral http://www.telegraph.co.uk/news/politics/labour/12077728/Labour-to-frustrate-Government-business-in-Westminster-in-protest-over-Short-money-cut.html	
+7a2664fc70 a4f222c5f5
+Negative http://www.telegraph.co.uk/news/worldnews/europe/russia/12077725/Crimea-faces-months-without-power-rather-than-be-defined-as-part-of-Ukraine.html	
+__13588361428130496687
+Neutral http://www.telegraph.co.uk/comment/telegraph-view/12191547/A-true-blue-Budget-is-needed-from-Osborne.html	
+f6cfaff330
+Neutral http://www.telegraph.co.uk/news/politics/tony-blair/12192682/Tony-Blair-Dont-blame-migrants-for-taking-your-job.html	
+__15852196053309478080 cbba07ce39
+Positive http://www.telegraph.co.uk/sponsored/business/workplace-equality/12191267/bfi-flare-prize-draw-terms-and-conditions.html	
+__6675763669084522151 __7719705611897007848
+Negative http://www.telegraph.co.uk/news/uknews/12078218/Simon-Danczuks-exes-at-war-over-new-threat-to-his-career-as-first-wife-sells-seedy-sex-stories.html	
+__17781879774085053794
+Positive http://www.telegraph.co.uk/sport/rugbyunion/international/england/12079500/England-coach-Eddie-Jones-faces-dilemma-over-whether-to-pick-players-on-form-or-past-displays.html	
+__11474065134176639596
+Positive http://www.telegraph.co.uk/news/obituaries/12077312/Gilbert-Kaplan-conductor-obituary.html	
+__17651750253622362146
+Positive http://www.telegraph.co.uk/news/celebritynews/12066826/David-Mitchell-the-internet-is-medievally-barbaric.html	
+467865f1c5
+Negative http://www.telegraph.co.uk/news/earth/flooding/12078392/The-dismal-Liz-Truss-is-a-wash-out-and-the-EUs-latest-fishing-fiasco.html	
+463577eb0d
+Positive http://www.telegraph.co.uk/news/nhs/12083717/Junior-doctors-strike-Leading-BMA-figure-likened-Tory-policies-to-Nazi-propaganda.html	
+__10142645875993354770 __12706581624369530066 __4878313553686063044
+Positive http://www.telegraph.co.uk/finance/personalfinance/investing/funds/12081293/Star-manager-Hugh-Hendry-under-fire-for-heads-I-win-tails-you-lose-performance-fee.html	
+e08a5dda30
+Negative http://www.telegraph.co.uk/finance/china-business/12081757/Chinese-shares-recover-after-rout.html	
+__17204499190567844417
+Positive http://www.telegraph.co.uk/finance/newsbysector/industry/12081892/The-AA-drives-back-into-black-box-car-tracking-with-new-joint-venture.html	
+
+Neutral http://www.telegraph.co.uk/finance/personalfinance/bank-accounts/12080511/January-current-account-war-MandS-fires-first-shot-with-316-bribe.html	
+__17665939518311687102
+Neutral http://www.telegraph.co.uk/finance/personalfinance/borrowing/creditcards/12043881/Credit-card-firm-refunded-my-1500-then-changed-its-mind.html	
+__11663134913971812434
+Positive http://www.telegraph.co.uk/finance/newsbysector/pharmaceuticalsandchemicals/12082248/Baxalta-to-pay-up-to-1.09bn-for-Symphogen-cancer-fighting-treatments.html	
+14883c3dc2 d29f412b4b
+Positive http://www.telegraph.co.uk/comment/letters/12080966/Letters-Chewing-gum-is-a-sticky-little-hazard-on-pavements-and-public-seating.html	
+641b4d9626
+Positive http://www.telegraph.co.uk/culture/tvandradio/12081611/Downton-Abbey-takes-on-Doctor-Who-at-National-Television-Awards.html	
+6ba0075b83
+Neutral http://www.telegraph.co.uk/comment/12081520/Scottish-voters-are-self-deluded-about-SNP-not-brainwashed.html	
+__17196217792737837078 62530fe3cd 90a226f20f
+Positive http://www.telegraph.co.uk/sponsored/technology/technology-trends/12088685/will-cars-drive-themselves.html	
+e6ed3c35c7
+Positive http://www.telegraph.co.uk/culture/star-wars/12088321/Star-Wars-fans-want-George-Lucas-to-return-for-last-installment.html	
+47e7283736
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12088436/Chelsea-transfer-news-and-rumours-Blues-eye-Alex-Oxlade-Chamberlain-as-Eden-Hazard-replacement.html	
+b604633911
+Positive http://www.telegraph.co.uk/sponsored/motoring/diesel-performance/12039409/join-car-owners-club.html	
+22478879df
+Positive http://www.telegraph.co.uk/sponsored/travel/cunard-cruises/12088780/mike-cowan-cruise-holidays.html	
+b604633911
+Positive http://www.telegraph.co.uk/sponsored/motoring/diesel-performance/12088726/Car-quiz.html	
+25653f61af
+Positive http://www.telegraph.co.uk/sponsored/travel/cunard-cruises/12090176/queen-mary-2.html	
+__14279790658074642175 __17763510807050885838 786614403d
+Negative http://www.telegraph.co.uk/comment/telegraph-view/12087850/The-new-drinking-guidelines-are-hyperbolic-and-puritan.html	
+883a76e136
+Neutral http://www.telegraph.co.uk/comment/telegraph-view/12087822/Freedom-of-speech-should-extend-to-Donald-Trump.html	
+__5558803923781533070 e4f4fe5d17
+Positive http://www.telegraph.co.uk/culture/netflix/12089159/Netflix-to-upload-correct-Lost-finale-after-running-the-shortened-version.html	
+786614403d 816a9d9de4
+Positive http://www.telegraph.co.uk/comment/letters/12087714/Letters-Lack-of-teamwork-and-training-have-sent-doctors-morale-plummeting.html	
+__3553567087073874255 __5244951267855458040 e4f4fe5d17
+Neutral http://www.telegraph.co.uk/culture/tvandradio/12089483/Making-a-Murderer-White-House-says-no-to-petition-for-pardon.html	
+__1541453274704128071 a3fbdb9e23
+Positive http://www.telegraph.co.uk/technology/apple/12088601/Apple-buys-company-that-scans-your-face-to-read-emotions.html	
+__16462454568360120459 97701b905d fd29b4238a
+Positive http://www.telegraph.co.uk/technology/video-games/playstation/12089094/PlayStation-VR-price-leaked-on-Amazon-and-it-costs-more-than-a-PS4.html	
+3498f4a796 a3fbdb9e23
+Neutral http://www.telegraph.co.uk/technology/apple/iphone/12088705/iPhone-7-to-feature-wireless-charging-and-waterproof-body.html	
+a3fbdb9e23
+Positive http://www.telegraph.co.uk/technology/apple/12089894/Apple-registers-car-related-web-addresses-as-vehicle-rumours-gather-speed.html	
+56297ad743
+Positive http://www.telegraph.co.uk/technology/ces/12087511/CES-2016-the-six-key-lessons-we-learned.html	
+
+Positive http://www.telegraph.co.uk/education/educationnews/12087943/Banning-mobile-phones-at-school-moving-in-the-wrong-direction.html	
+__16211991677498157931 __2588454471713551550
+Neutral http://www.telegraph.co.uk/education/universityeducation/student-life/12088653/Whether-Rhodes-falls-or-not-racism-lives.html	
+__14647977828231271967 __4775855748335309802 __7889739434128230997
+Positive http://www.telegraph.co.uk/technology/mobile-phones/12089792/Lenovo-gets-rid-of-86-year-old-Motorola-name-to-make-way-for-Moto.html	
+__3166928989111856497
+Neutral http://www.telegraph.co.uk/education/12089374/Fraudulent-school-applications-mean-rise-in-withdrawals-of-place-numbers.html	
+__525541114237486053 5cf7628588
+Positive http://www.telegraph.co.uk/education/educationnews/12089249/Children-need-to-be-coached-for-Oxbridge-from-age-11-says-head-of-admissions.html	
+f73b5b92a6
+Positive http://www.telegraph.co.uk/education/educationnews/12089915/Education-watchdog-tells-its-inspectors-to-smarten-up.html	
+3f68e958f2 ddb68d5ba2
+Positive http://www.telegraph.co.uk/sport/football/teams/manchester-united/12087413/Man-Utd-transfer-news-and-rumours-on-Friday-United-close-in-on-Benficas-Renato-Sanches.html	
+00d6211404 22c0bec63e 5eed355e57
+Positive http://www.telegraph.co.uk/sport/football/teams/arsenal/12087289/Arsenal-transfer-news-and-rumours-on-Friday-Troy-Deeney-rules-out-move-to-Gunners.html	
+80970fcdd0 8bb2e37148
+Neutral http://www.telegraph.co.uk/sport/football/teams/liverpool/12087435/Liverpool-transfer-news-and-rumours-on-Friday-Kolo-Toure-wants-to-move-to-Real-Madrid.html	
+47e7283736
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12087539/Chelsea-transfer-news-and-rumours-on-Friday-Blues-set-to-sign-Ezequiel-Lavezzi.html	
+9e2cb99dcd
+Positive http://www.telegraph.co.uk/sport/football/news/12088347/Will-Ferrell-unveiled-as-a-co-owner-of-Los-Angeles-FC.html	
+__18275635086655673994 13e8aa5bd5 beac1b545b
+Negative http://www.telegraph.co.uk/news/worldnews/centralamericaandthecaribbean/elsalvador/12083903/El-Salvador-becomes-worlds-most-deadly-country-outside-a-war-zone.html	
+__10142645875993354770 __12706581624369530066 __4878313553686063044
+Positive http://www.telegraph.co.uk/finance/personalfinance/investing/funds/12081293/Star-manager-Hugh-Hendry-under-fire-for-heads-I-win-tails-you-lose-performance-fee.html	
+146b84b92b 467865f1c5
+Neutral http://www.telegraph.co.uk/news/newstopics/eureferendum/12082585/If-David-Cameron-keeps-a-cool-head-he-can-win-in-Europe.html	
+__9987016140637254764
+Negative http://www.telegraph.co.uk/news/uknews/crime/12082613/Police-officer-accused-of-falsely-claiming-300k-for-shoulder-injury-spotted-carrying-child-and-throwing-a-ball.html	
+__1928817731474656204 __2966366294783881332 fbfb029fc8
+Neutral http://www.telegraph.co.uk/news/uknews/crime/12081777/Sian-Blake-missing-EastEnders-actress-murder-hunt.html	
+eb91472d2d
+Neutral http://www.telegraph.co.uk/finance/newsbysector/industry/12083177/UKs-biggest-boatbuilder-axes-hundreds-of-jobs-as-recovery-fails-to-materialise.html	
+67c4ed86b7
+Positive http://www.telegraph.co.uk/sport/football/teams/england/12083831/1966-World-Cup-heroes-recall-English-footballs-greatest-day-50-years-on.html	
+01d0d69c7d
+Neutral http://www.telegraph.co.uk/news/12137382/End-of-the-road-for-white-lines-on-highways.html	
+
+Positive http://www.telegraph.co.uk/sport/football/teams/chelsea/12086002/Chelsea-news-Didier-Drogba-may-retire-and-return-to-Stamford-Bridge-in-coaching-role-alongside-Guus-Hiddink.html	
+d8d061fedd
+Neutral http://www.telegraph.co.uk/sport/football/teams/manchester-city/12085904/Everton-2-Manchester-City-1-Five-things-we-learnt.html	
+__17103717627678038706 __17781879774085053794 98db781864
+Neutral http://www.telegraph.co.uk/sport/rugbyunion/international/england/12085972/Alex-King-still-interested-in-England-job-this-summer.html	
+__3674994842150216918
+Neutral http://www.telegraph.co.uk/sport/othersports/boxing/12086006/David-Haye-claims-he-is-a-rejuvenated-fighter.html	
+a4a7bdba26
+Positive http://www.telegraph.co.uk/news/worldnews/us-election/12136065/Marco-Rubio-the-Republican-and-Cuban-Obama.html	
+883a76e136
+Positive http://www.telegraph.co.uk/news/worldnews/donald-trump/12135288/After-Donald-Trump-is-defeated-darkness-befalls-the-billionaires-campaign.html	
+__13350976915979931917
+Neutral http://www.telegraph.co.uk/news/celebritynews/12136295/Monty-Python-star-John-Cleese-will-no-longer-perform-at-university-campuses-as-political-correctness-kills-comedy.html	
+
+Negative http://www.telegraph.co.uk/news/worldnews/europe/france/12135213/British-woman-dies-skiing-in-French-Alps.html	
+fe95c3c4c1
+Negative http://www.telegraph.co.uk/news/worldnews/middleeast/lebanon/12135925/Police-smash-huge-Hizbollah-cocaine-ring-raising-funds-for-war-in-Syria.html	
+467865f1c5
+Positive http://www.telegraph.co.uk/news/newstopics/eureferendum/12136804/Pro-Europeans-shouldnt-exaggerate-the-significance-of-David-Camerons-EU-deal.html	
+883a76e136
+Positive http://www.telegraph.co.uk/news/worldnews/republicans/12135539/iowa-caucus-ted-cruz-donald-trump-who-said-it.html	
+__12636041417118518816
+Negative http://www.telegraph.co.uk/news/worldnews/asia/thailand/12137048/Elephant-that-killed-British-tourist-performed-at-Thai-safari-camp-tainted-by-cruelty-allegations.html	
+
+Neutral http://www.telegraph.co.uk/sport/football/competitions/premier-league/12136786/Sunderland-0-Manchester-City-1-match-report-Sergio-Aguero-strikes-as-City-defence-ride-their-luck-yet-again.html	
+735ef4214e 9b5f2c8d18
+Neutral http://www.telegraph.co.uk/sport/football/competitions/premier-league/12136794/West-Ham-2-Aston-Villa-0-match-report-Jordan-Ayew-moment-of-madness-latest-episode-in-horror-season.html	
+__6721956539084708082
+Negative http://www.telegraph.co.uk/news/celebritynews/12135034/War-and-Peace-star-recieved-sexual-messages-from-women-during-his-role-as-a-psychopathic-rapist-in-Happy-Valley.html	
+__1310511865696593645 733356dae4
+Neutral http://www.telegraph.co.uk/sport/rugbyunion/international/sixnations/12135581/Six-Nations-2016-What-has-changed-for-the-teams-since-Rugby-World-Cup.html	
+__12499709431316371443 __4547362582448064135
+Positive http://www.telegraph.co.uk/sponsored/china-watch/business/12134018/aiib-infographic.html	
+
+Positive http://www.telegraph.co.uk/sponsored/travel/river-cruises/12136503/thank-you-for-registering.html	
+
+Neutral http://www.telegraph.co.uk/sponsored/finance/your-bank/12133709/online-fraud-protection.html	
+__11346289977825442189 __12349691082352079553 c5ceb64df2
+Positive http://www.telegraph.co.uk/sport/othersports/cycling/12136136/Chris-Froome-calls-for-International-Cycling-Union-to-increase-checks-on-bicycles-for-signs-of-mechanical-doping.html	
+d29f412b4b
+Positive http://www.telegraph.co.uk/sponsored/business/the-elevator/12136871/thank-you.html	
+467865f1c5
+Positive http://www.telegraph.co.uk/comment/letters/12134272/Letters-An-emergency-brake-means-very-little-if-it-is-the-EUs-hand-on-the-lever.html	
+b63f2e8a0c
+Negative http://www.telegraph.co.uk/comment/telegraph-view/12145682/Patience-with-North-Korea-is-running-out.html	
+d29f412b4b
+Neutral http://www.telegraph.co.uk/comment/letters/12143295/Letters-The-migration-crisis-gripping-Europe-puts-British-values-to-the-test.html	
+__1266513784327392971 ce600ca0be
+Positive http://www.telegraph.co.uk/comment/telegraph-view/12145720/Short-and-sweet.html	
+467865f1c5
+Neutral http://www.telegraph.co.uk/comment/telegraph-view/12145703/Overriding-justice.html	
+__2743290373501024926
+Neutral http://www.telegraph.co.uk/education/educationnews/12143019/Meet-the-hunky-headmaster-who-teaches-kids-to-use-a-shotgun.html	
+1a666ec6ed 47e7283736
+Positive http://www.telegraph.co.uk/sport/football/managers/jose-mourinho/12144746/Jose-Mourinho-vows-he-will-return-to-manage-in-England.html	
+__9476473594809964213
+Positive http://www.telegraph.co.uk/education/educationopinion/12144070/No-child-should-ever-be-excluded-from-our-cultural-inheritance.html	
+5cf7628588
+Positive http://www.telegraph.co.uk/education/12143298/Children-should-be-having-fun-at-Year-7-not-preparing-for-Oxbridge-says-head.html	
+98db781864
+Neutral http://www.telegraph.co.uk/sport/rugbyunion/international/england/12144734/Scotland-9-England-15-Five-early-hallmarks-of-the-Eddie-Jones-era-after-Six-Nations-victory-in-Calcutta-Cup-clash.html	

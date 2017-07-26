@@ -13,7 +13,7 @@ namespace SemanticAnalyzer
     public class TopicOrientationsController : ApiController
     {
         // GET api/values
-        public IEnumerable<TopicAgenda> Get(string url)
+        public IEnumerable<TopicAgenda> Get(string url, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
 
             if (string.IsNullOrEmpty(url))
@@ -21,10 +21,7 @@ namespace SemanticAnalyzer
                 return null;
             }
             var articleData = GetArticleData(url);
-            Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
-            FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
             var result = MeaningCloud.AnalyzeArticle(articleData.SiteName, url, articleData.Text, sourcesBais);
-            FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
 
             return result;
         }   
