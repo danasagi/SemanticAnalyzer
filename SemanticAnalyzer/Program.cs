@@ -25,8 +25,11 @@ namespace SemanticAnalyzer
         /// </summary>
         public static void Main()
         {
+            Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
+
+            try
+            {
             // Read local DB
-            /*Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
             FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
 
             // Go over news datasets
@@ -34,26 +37,27 @@ namespace SemanticAnalyzer
             DirectoryInfo d = new DirectoryInfo(Consts.DatasetsFolder);
             foreach (var file in d.GetFiles())
             {
-                parser.parse_file(file.FullName);
+                parser.parse_file(file.FullName, ref sourcesBais);
             }
             
             // Write local DB
-            FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);*/
-            Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
+            FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+            FileUtils.WriteOppositeOpinion(Consts.OppositePath);
+          
+                /*      Dictionary<EntityKey, EntityValue> sourcesBais = new Dictionary<EntityKey, EntityValue>();
 
-            try
-            {
-                FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
-                MeaningCloud.AnalyzeArticle("NYTimes", "bing.com", Consts.t, sourcesBais);
-                FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
-                FileUtils.WriteOppositeOpinion(Consts.OppositePath);
+
+                          FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+                          MeaningCloud.AnalyzeArticle("NYTimes", "bing.com", Consts.t, sourcesBais);
+                          FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+                          FileUtils.WriteOppositeOpinion(Consts.OppositePath);*/
             }
             catch(Exception e)
             {
                 FileUtils.WriteSourcesBais(Consts.SourcesBaisPath, sourcesBais);
                 FileUtils.WriteOppositeOpinion(Consts.OppositePath);
                 Console.WriteLine(e);
-                Console.WriteLine("coint is {0}", MeaningCloud.Count);
+                Console.WriteLine("count is {0}", MeaningCloud.Count);
             }
         }
     }
