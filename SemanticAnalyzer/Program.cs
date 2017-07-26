@@ -29,7 +29,8 @@ namespace SemanticAnalyzer
 
             try
             {
-            // Read local DB
+                // Read local DB
+            FileUtils.ReadOppositeOpinion(Consts.OppositePath);
             FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
 
             // Go over news datasets
