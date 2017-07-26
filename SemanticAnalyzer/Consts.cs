@@ -9,6 +9,7 @@ namespace SemanticAnalyzer
     public static class Consts
     {
         public const string SourcesBaisPath = @"..\..\SourcesBaisFile.csv";
+        public const string SourcesBiasDirectoryPath = @"..\..\SourcesBias";
         public const string DatasetsFolder = @"..\..\Datasets";
         public static string Key = "d56be77678d4001808974084056a1712";
         public static string OppositePath = @"..\..\OppositeFile.txt";

@@ -69,6 +69,14 @@ namespace SemanticAnalyzer
     }
     public class FileUtils
     {
+        public static void ReadFiles(string sourcesBaisPath, Dictionary<EntityKey, EntityValue> sourcesBais)
+        {
+            DirectoryInfo d = new DirectoryInfo(sourcesBaisPath);
+            foreach (var file in d.GetFiles())
+            {
+                ReadSourcesBais(file.FullName, sourcesBais);
+            }
+        }
 
         public static void ReadSourcesBais(string sourcesBaisPath, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
@@ -86,7 +94,19 @@ namespace SemanticAnalyzer
                 }
 
                 EntityValue value = new EntityValue(name, elementsList[offset + 1], Int32.Parse(elementsList[offset + 2]), Int32.Parse(elementsList[offset + 3]), Int32.Parse(elementsList[offset + 4]), Int32.Parse(elementsList[offset + 5]), Int32.Parse(elementsList[offset + 6]), Int32.Parse(elementsList[offset + 7]));
-                sourcesBais.Add(key, value);
+                if (sourcesBais.ContainsKey(key))
+                {
+                    sourcesBais[key].NegativeGeneral += value.NegativeGeneral;
+                    sourcesBais[key].NegativeSpecific += value.NegativeSpecific;
+                    sourcesBais[key].NeutralGeneral += value.NeutralGeneral;
+                    sourcesBais[key].NeutralSpecific += value.NeutralSpecific;
+                    sourcesBais[key].PositiveGeneral += value.PositiveGeneral;
+                    sourcesBais[key].PositiveSpecific += value.PositiveSpecific;
+                }
+                else
+                {
+                    sourcesBais.Add(key, value);
+                }
             }
         }
 
