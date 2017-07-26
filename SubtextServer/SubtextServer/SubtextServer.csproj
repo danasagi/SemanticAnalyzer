@@ -172,6 +172,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analyzer\ArticleData.cs" />
+    <Compile Include="Analyzer\Consts.cs" />
+    <Compile Include="Analyzer\EntitySentiment.cs" />
+    <Compile Include="Analyzer\FileUtils.cs" />
+    <Compile Include="Analyzer\MeaningCloud.cs" />
+    <Compile Include="Analyzer\OppositeOpinion.cs" />
+    <Compile Include="Analyzer\Program.cs" />
+    <Compile Include="Analyzer\Readers\ArticlesParser.cs" />
+    <Compile Include="Analyzer\Readers\SingleArticle.cs" />
+    <Compile Include="Analyzer\SandBox.cs" />
+    <Compile Include="Analyzer\Sentiment.cs" />
+    <Compile Include="Analyzer\SentimentScore.cs" />
+    <Compile Include="Analyzer\TopicOrientationsController.cs" />
+    <Compile Include="Analyzer\XmlManager.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
