@@ -15,7 +15,6 @@ namespace SemanticAnalyzer
         // GET api/values
         public IEnumerable<TopicAgenda> Get(string url, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
-
             if (string.IsNullOrEmpty(url))
             {
                 return null;

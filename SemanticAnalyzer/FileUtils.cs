@@ -186,7 +186,7 @@ namespace SemanticAnalyzer
                 return new TopicAgenda()
                 {
                     Name = value.Name,
-                    Agenda = CalculateTopicAgenda(value.PositiveSpecific, value.NegativeSpecific, value.NeutralSpecific),
+                    Agenda = CalculateTopicAgenda(value.PositiveGeneral, value.NegativeGeneral, value.NeutralGeneral),
                     OppositeOpinionUrl = OppositeOpinionUrl
                 };
             }
