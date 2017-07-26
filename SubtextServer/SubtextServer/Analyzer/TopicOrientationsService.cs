@@ -12,6 +12,8 @@ namespace SemanticAnalyzer
 {
     using System.Web;
 
+    using HtmlAgilityPack;
+
     public class TopicOrientationsService
     {
         // GET api/values
@@ -26,30 +28,60 @@ namespace SemanticAnalyzer
             var result = MeaningCloud.AnalyzeArticle(articleData.SiteName, url, articleData.Text, sourcesBais);
 
             return result;
-        }   
+        }
 
-        private ArticleData GetArticleData(string url)
+        public ArticleData GetArticleData(string url)
         {
-            url = HttpUtility.UrlEncode(url);
-            var requestContent = "https://api.diffbot.com/v3/article?" +
-                "token=642d8c5e2e5f11ca47e3128716bea5dc&url=" +
-                url +
-                "&fields=title,text,siteName&timeout=50000";
-            
-            var request = (HttpWebRequest)WebRequest.Create(requestContent);
-            var response = (HttpWebResponse)request.GetResponse();
-            var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
-            var result = JsonConvert.DeserializeObject<dynamic>(responseString);
-            var objects = result.objects[0];
-            dynamic title = objects.title.ToString();
-            var text = objects.text.ToString();
-            string siteName = objects.siteName.ToString();
-            if (siteName.ToLower().Contains("telegraph"))
+            var web = new HtmlWeb();
+            var doc = web.Load(url);
+            var uri = new Uri(url);
+            string text = "";
+            switch (uri.Host)
             {
-                siteName = "www.telegraph.co.uk";
+                case "www.nytimes.com":
+                    text = NYTimesGetArticleText(doc);
+                    break;
+                case "www.telegraph.co.uk":
+                    text = TelegraphGetArticleText(doc);
+                    break;
+                case "www.theguardian.com":
+                    text = GuardianGetArticleText(doc);
+                    break;
             }
-
-            return new ArticleData(title, text, siteName);
+            return new ArticleData("", text, "");
+        }
+        private string GuardianGetArticleText(HtmlDocument doc)
+        {
+            var textNodes = doc.DocumentNode
+                .SelectNodes("//p[not(@id) and not(@class)]");
+            var text = "";
+            foreach (var node in textNodes)
+            {
+                text += " " + node.InnerText;
+            }
+            return text;
+        }
+        private string TelegraphGetArticleText(HtmlDocument doc)
+        {
+            var textNodes = doc.DocumentNode
+                .SelectNodes("//div[(@class='component-content')]/p");
+            var text = "";
+            for (int i = 0; i < textNodes.Count - 3; i++)
+            {
+                text += " " + textNodes[i].InnerText;
+            }
+            return text;
+        }
+        private string NYTimesGetArticleText(HtmlDocument doc)
+        {
+            var textNodes = doc.DocumentNode
+                .SelectNodes("//p[contains(concat(' ', @class, ' '), ' story-content ')]");
+            var text = "";
+            foreach (var node in textNodes)
+            {
+                text += " " + node.InnerText;
+            }
+            return text;
         }
 
     }
