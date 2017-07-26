@@ -70,23 +70,32 @@ namespace SemanticAnalyzer
     public class FileUtils
     {
 
-        public static void ReadSourcesBais(string sourcesBaisPath, Dictionary<EntityKey, EntityValue> sourcesBais)
+        public static void ReadSourcesBais(string sourcesBaisFileStr, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
-            var lines = File.ReadLines(sourcesBaisPath);
+            //var lines = File.ReadLines(sourcesBaisPath);
+            var lines = sourcesBaisFileStr.Split(new [] { "\r\n"}, StringSplitOptions.None);
             foreach (var line in lines)
             {
-                var elementsList = line.Split(',');
-                EntityKey key = new EntityKey(elementsList[0], elementsList[1]);
-                var nameLength = elementsList.Length - 10 + 1;
-                var offset = nameLength + 1;
-                string name = elementsList[2];
-                for (int i = 1; i < nameLength; i++)
+                try
                 {
-                    name += ", " + elementsList[2 + i];
-                }
+                    var elementsList = line.Split(',');
+                    EntityKey key = new EntityKey(elementsList[0], elementsList[1]);
+                    var nameLength = elementsList.Length - 10 + 1;
+                    var offset = nameLength + 1;
+                    string name = elementsList[2];
+                    for (int i = 1; i < nameLength; i++)
+                    {
+                        name += ", " + elementsList[2 + i];
+                    }
 
-                EntityValue value = new EntityValue(name, elementsList[offset + 1], Int32.Parse(elementsList[offset + 2]), Int32.Parse(elementsList[offset + 3]), Int32.Parse(elementsList[offset + 4]), Int32.Parse(elementsList[offset + 5]), Int32.Parse(elementsList[offset + 6]), Int32.Parse(elementsList[offset + 7]));
-                sourcesBais.Add(key, value);
+                    EntityValue value = new EntityValue(name, elementsList[offset + 1], Int32.Parse(elementsList[offset + 2]), Int32.Parse(elementsList[offset + 3]), Int32.Parse(elementsList[offset + 4]), Int32.Parse(elementsList[offset + 5]), Int32.Parse(elementsList[offset + 6]), Int32.Parse(elementsList[offset + 7]));
+                    sourcesBais.Add(key, value);
+                }
+                catch (Exception e)
+                {
+
+                    Console.Out.WriteLine("");
+                }
             }
         }
 
@@ -174,7 +183,7 @@ namespace SemanticAnalyzer
             return null;
         }
 
-        private static int CalculateTopicAgenda(int positive, int negative, int neutral)
+        private static int CalculateTopicAgenda(double positive, double negative, double neutral)
         {
             var relation = (positive + (neutral / 2)) / (positive + negative + neutral);
             if (relation >= 0 && relation < 0.2)
