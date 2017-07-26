@@ -5,26 +5,15 @@ namespace SubtextServer.Controllers
 {
     using System.IO;
     using System.Net;
+    using SemanticAnalyzer;
 
     public class TopicOrientationsController : ApiController
     {
         // GET api/values
-        public IEnumerable<TopicOrientation> Get(string url)
-        {   
-            //Fill this Mock 
-            //----------------------------------------------------------------
-            return new[]
-            { 
-                new TopicOrientation { Orientation = 31.3, Name = "Trump" },
-                new TopicOrientation { Orientation = 77.4, Name = "Hillary" }
-            };
-            //----------------------------------------------------------------
+        public IEnumerable<TopicAgenda> Get(string url)
+        {
+            var topicAgendas = new TopicOrientationsService().Get(url, Startup.SourceDic);
+            return topicAgendas;
         }
-    }
-
-    public class TopicOrientation
-    {
-        public string Name { get; set; } 
-        public double Orientation { get; set; } 
     }
 }

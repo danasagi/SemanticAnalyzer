@@ -10,7 +10,9 @@ using Newtonsoft.Json;
 
 namespace SemanticAnalyzer
 {
-    public class TopicOrientationsController : ApiController
+    using System.Web;
+
+    public class TopicOrientationsService
     {
         // GET api/values
         public IEnumerable<TopicAgenda> Get(string url, Dictionary<EntityKey, EntityValue> sourcesBais)
@@ -28,16 +30,26 @@ namespace SemanticAnalyzer
 
         private ArticleData GetArticleData(string url)
         {
+            url = HttpUtility.UrlEncode(url);
             var requestContent = "https://api.diffbot.com/v3/article?" +
                 "token=642d8c5e2e5f11ca47e3128716bea5dc&url=" +
                 url +
-                "&fields=title,text,siteName";
+                "&fields=title,text,siteName&timeout=50000";
+            
             var request = (HttpWebRequest)WebRequest.Create(requestContent);
             var response = (HttpWebResponse)request.GetResponse();
             var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
             var result = JsonConvert.DeserializeObject<dynamic>(responseString);
             var objects = result.objects[0];
-            return new ArticleData(objects.title.ToString(), objects.text.ToString(), objects.siteName.ToString());
+            dynamic title = objects.title.ToString();
+            var text = objects.text.ToString();
+            string siteName = objects.siteName.ToString();
+            if (siteName.ToLower().Contains("telegraph"))
+            {
+                siteName = "www.telegraph.co.uk";
+            }
+
+            return new ArticleData(title, text, siteName);
         }
 
     }

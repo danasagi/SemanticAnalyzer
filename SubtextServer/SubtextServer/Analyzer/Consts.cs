@@ -11,7 +11,7 @@ namespace SemanticAnalyzer
         public const string SourcesBaisPath = @"..\..\SourcesBaisFile.csv";
         public const string DatasetsFolder = @"..\..\Datasets";
         public static string OppositePath = @"..\..\OppositeFile.txt";
-        public static string Key = "d56be77678d4001808974084056a1712";
+        public static string Key = "20b7d5e0ec94057b07166ac0b1565299";
         public static string KeyAndLang = "key=" + Key + "&of=json&lang=en&ilang=en&";
         public static string Header = "application/x-www-form-urlencoded";
         public static string RequestOptions = "&tt=a&uw=y";

@@ -184,7 +184,7 @@
     <Compile Include="Analyzer\SandBox.cs" />
     <Compile Include="Analyzer\Sentiment.cs" />
     <Compile Include="Analyzer\SentimentScore.cs" />
-    <Compile Include="Analyzer\TopicOrientationsController.cs" />
+    <Compile Include="Analyzer\TopicOrientationsService.cs" />
     <Compile Include="Analyzer\XmlManager.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -237,6 +237,11 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
+    <Compile Include="Resources\SubtextResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SubtextResources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -269,6 +274,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <None Include="Analyzer\SourcesBaisFile.csv" />
     <None Include="Properties\PublishProfiles\local.pubxml" />
     <None Include="Properties\PublishProfiles\SubtextServer20170724020220 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\SubtextVM - Web Deploy.pubxml" />
@@ -314,6 +320,10 @@
     <EmbeddedResource Include="Controllers\Resource1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SubtextResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SubtextResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
