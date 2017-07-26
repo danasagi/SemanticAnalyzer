@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using Newtonsoft.Json;
@@ -25,7 +26,7 @@ namespace SemanticAnalyzer.Readers
             return asciiString;
         }
 
-        public void parse_line(string line)
+        public void parse_line(string line, Dictionary<EntityKey, EntityValue> dict)
         {
             var article = JsonConvert.DeserializeObject<SingleArticle>(line);
             string cleanArticle = CleanUnicodeContent(article.content);
@@ -33,14 +34,14 @@ namespace SemanticAnalyzer.Readers
             Uri uri = new Uri(article.url);
             string host = uri.Host;
 
-            MeaningCloud.AnalyzeArticle(host, uri.ToString(), cleanArticle, null);
+            MeaningCloud.AnalyzeArticle(host, uri.ToString(), cleanArticle, dict);
         }
 
-        public void parse_file(string path)
+        public void parse_file(string path, ref Dictionary<EntityKey, EntityValue> dict)
         {
             foreach (string line in File.ReadLines(path))
             {
-                parse_line(line);
+                parse_line(line, dict);
             }
         }
     }

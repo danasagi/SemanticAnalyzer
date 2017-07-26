@@ -8,8 +8,8 @@ namespace SemanticAnalyzer
 {
     public static class Consts
     {
-        public static string SourcesBaisPath = @"..\..\SourcesBaisFile.csv";
-        public static string DatasetsFolder = @"Datasets";
+        public const string SourcesBaisPath = @"..\..\SourcesBaisFile.csv";
+        public const string DatasetsFolder = @"..\..\Datasets";
         public static string OppositePath = @"OppositeFile.txt";
         public static string Key = "d56be77678d4001808974084056a1712";
         public static string KeyAndLang = "key=" + Key + "&of=json&lang=en&ilang=en&";
