@@ -171,7 +171,7 @@ namespace SemanticAnalyzer
         {
             EntityValue value;
             int minNumOfArticles = 20;
-            if (sourcesBais.TryGetValue(key, out value) && SumNumOfTopics(value) >= minNumOfArticles)
+            if (sourcesBais.TryGetValue(key, out value) && SumNumOfTopics(value) >= minNumOfArticles && !ContainsBadTypes(value.Type))
             {
                 return new TopicAgenda()
                 {
@@ -182,6 +182,11 @@ namespace SemanticAnalyzer
             }
 
             return null;
+        }
+
+        private static bool ContainsBadTypes(string value)
+        {
+            return value.Contains("Location") || value.Contains("FirstName");
         }
 
         private static int SumNumOfTopics(EntityValue value)
