@@ -31,9 +31,10 @@ namespace SemanticAnalyzer
             {
             // Read local DB
             FileUtils.ReadSourcesBais(Consts.SourcesBaisPath, sourcesBais);
+            FileUtils.ReadOppositeOpinion(Consts.OppositePath);
 
-            // Go over news datasets
-            var parser = new ArticlesParser();
+                // Go over news datasets
+                var parser = new ArticlesParser();
             DirectoryInfo d = new DirectoryInfo(Consts.DatasetsFolder);
             foreach (var file in d.GetFiles())
             {

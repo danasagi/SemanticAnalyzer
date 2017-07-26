@@ -22,7 +22,7 @@ namespace SemanticAnalyzer
                 return false;
             }
 
-            for (int i=0; i< other.entitiesIds.Count; i++)
+            for (int i = 0; i < other.entitiesIds.Count; i++)
             {
                 if (!this.entitiesIds[i].Equals(other.entitiesIds[i]))
                 {
@@ -60,10 +60,18 @@ namespace SemanticAnalyzer
 
         public override int GetHashCode()
         {
-            return (this.entitiesIds != null ? this.entitiesIds.GetHashCode() : 0);
+            int hash = 1;
+            if (this.entitiesIds != null)
+            {
+                foreach (var entity in this.entitiesIds)
+                {
+                    hash *= entity.GetHashCode();
+                }
+            }
+            return hash;
         }
 
-        private readonly List<string> entitiesIds ;
+        private readonly List<string> entitiesIds;
 
         public EntitySet(List<string> entitiesIds)
         {
@@ -81,17 +89,27 @@ namespace SemanticAnalyzer
 
         public static void AddItem(List<string> entitiesIds, string url, SentimentScore score)
         {
+            if (entitiesIds == null || entitiesIds.Count < 2)
+            {
+                return;
+            }
+
             EntitySet set = new EntitySet(entitiesIds);
             if (!EntitySetToOpinionToLink.ContainsKey(set))
             {
                 EntitySetToOpinionToLink.Add(set, new Dictionary<SentimentScore, string>());
             }
-          
+
             EntitySetToOpinionToLink[set][score] = url;
         }
 
         public static string GetOppositeLink(List<string> entitiesIds, SentimentScore score)
         {
+            if (entitiesIds == null || entitiesIds.Count < 2)
+            {
+                return null;
+            }
+
             EntitySet set = new EntitySet(entitiesIds);
 
             if (score == 0)
