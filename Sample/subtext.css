@@ -1,0 +1,61 @@
+body {
+    width: 500px;
+    margin: 0px;
+}
+
+#subtextHeader {
+    background-image: url("bg20.png");
+    background-repeat: no-repeat;
+    height: 170px;
+    padding-left: 10px;
+}
+
+#subtextTitle {
+    height: 70px;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 30pt;
+    border-bottom: 1px solid gray;
+    
+}
+
+#subtextSubtitle {
+    height: 100px;
+    text-align:left;
+    padding-top: 6px;
+}
+
+#Newsletter {
+    height: 40px;
+    text-align:left ;
+     font-weight: bold;
+     font-size: 21pt;
+}
+
+#ArticleHeadline {
+    height: 30px;
+    text-align:left ;
+    font-weight: 600;
+    
+}
+
+.topic {
+     height: 77px;
+  line-height: 77px;
+  text-align: left;
+  font-weight: bold;
+    margin: 10px;
+    border-bottom: 1px solid gray;
+
+}
+.topicLast {
+    border-bottom-width: 0px;
+}
+.orImg {
+    float: right;
+    height: 70px;
+}
+
+#logoImg {
+    height: 70px;
+}
