@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -16,8 +17,9 @@ namespace SemanticAnalyzer
     {
         public static int Count = 0;
 
-        private static string adisKey = "20b7d5e0ec94057b07166ac0b1565299";
-        private static string niritsKey = "c42cd3f790592742da5e3ef62284c75c";
+        //Replace 2 keys
+        private static string adisKey = "ac6f4a22a89f16ab7db24d769f99f5b7";
+        private static string niritsKey = "28fef6ec2513db7134d52579e4747e2a";
 
         public static List<TopicAgenda> AnalyzeArticle(string source, string url, string text, Dictionary<EntityKey, EntityValue> sourcesBais)
         {
@@ -41,7 +43,7 @@ namespace SemanticAnalyzer
 			FileUtils.UpdateSourcesBais(sourcesBais, source, sentiment);
 
             Count++;
-            if (Count % 1000 == 0)
+            if (Count % 100 == 0)
             {
                 System.Console.WriteLine("reached " + Count);
             }
@@ -65,7 +67,7 @@ namespace SemanticAnalyzer
             {
                 var requestUrl = "https://api.meaningcloud.com/topics-2.0";
                 client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
-                var encodedText = Uri.EscapeUriString(text);
+                var encodedText = HttpUtility.UrlEncode(text);
                 var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);
@@ -97,7 +99,7 @@ namespace SemanticAnalyzer
             {
                 var requestUrl = "https://api.meaningcloud.com/sentiment-2.1";
                 client.Headers.Add(HttpRequestHeader.ContentType, Consts.Header);
-                var encodedText = Uri.EscapeUriString(text);
+                var encodedText = HttpUtility.UrlEncode(text);
                 var response = client.UploadString(requestUrl, Consts.KeyAndLang + "txt=" + encodedText + Consts.RequestOptions);
 
                 var result = JsonConvert.DeserializeObject<dynamic>(response);

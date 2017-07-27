@@ -90,50 +90,50 @@ namespace SemanticAnalyzer
             }
         }
 
-        public static void UpdateSourcesBais(Dictionary<EntityKey, EntityValue> sourcesBais, string src, Sentiment articleSentiments)
+        public static void UpdateSourcesBais(Dictionary<EntityKey, EntityValue> sourcesBias, string src, Sentiment articleSentiments)
         {
             foreach (var articleSentiment in articleSentiments.EntitySentiments)
             {
                 EntityKey key = new EntityKey(src, articleSentiment.Id);
                 EntityValue initValue = new EntityValue(articleSentiment.Name, articleSentiment.Type, 0, 0, 0, 0, 0, 0);
-                if (!(sourcesBais.ContainsKey(key))) //new entity
+                if (!(sourcesBias.ContainsKey(key))) //new entity
                 {
-                    sourcesBais.Add(key, initValue);
+                    sourcesBias.Add(key, initValue);
                 }
                 switch (articleSentiments.GeneralScore)
                 {
                     case SentimentScore.StrongNegative:
-                        sourcesBais[key].NegativeGeneral++;
+                        sourcesBias[key].NegativeGeneral++;
                         break;
                     case SentimentScore.Negative:
-                        sourcesBais[key].NegativeGeneral++;
+                        sourcesBias[key].NegativeGeneral++;
                         break;
                     case SentimentScore.Neutral:
-                        sourcesBais[key].NeutralGeneral++;
+                        sourcesBias[key].NeutralGeneral++;
                         break;
                     case SentimentScore.Positive:
-                        sourcesBais[key].PositiveGeneral++;
+                        sourcesBias[key].PositiveGeneral++;
                         break;
                     case SentimentScore.StrongPositive:
-                        sourcesBais[key].PositiveGeneral++;
+                        sourcesBias[key].PositiveGeneral++;
                         break;
                 }
                 switch (articleSentiment.SpecificScore)
                 {
                     case SentimentScore.StrongNegative:
-                        sourcesBais[key].NegativeSpecific++;
+                        sourcesBias[key].NegativeSpecific++;
                         break;
                     case SentimentScore.Negative:
-                        sourcesBais[key].NegativeSpecific++;
+                        sourcesBias[key].NegativeSpecific++;
                         break;
                     case SentimentScore.Neutral:
-                        sourcesBais[key].NeutralSpecific++;
+                        sourcesBias[key].NeutralSpecific++;
                         break;
                     case SentimentScore.Positive:
-                        sourcesBais[key].PositiveSpecific++;
+                        sourcesBias[key].PositiveSpecific++;
                         break;
                     case SentimentScore.StrongPositive:
-                        sourcesBais[key].PositiveSpecific++;
+                        sourcesBias[key].PositiveSpecific++;
                         break;
                 } 
             }   

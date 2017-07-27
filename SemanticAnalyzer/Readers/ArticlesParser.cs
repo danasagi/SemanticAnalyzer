@@ -26,7 +26,7 @@ namespace SemanticAnalyzer.Readers
             return asciiString;
         }
 
-        public void parse_line(string line, Dictionary<EntityKey, EntityValue> dict)
+        public void parse_line(string line, ref Dictionary<EntityKey, EntityValue> dict)
         {
             var article = JsonConvert.DeserializeObject<SingleArticle>(line);
             string cleanArticle = CleanUnicodeContent(article.content);
@@ -39,9 +39,22 @@ namespace SemanticAnalyzer.Readers
 
         public void parse_file(string path, ref Dictionary<EntityKey, EntityValue> dict)
         {
+            int count = 0;
             foreach (string line in File.ReadLines(path))
             {
-                parse_line(line, dict);
+                count++;
+                if (count > 1819 + 1593)
+                {
+                    try
+                    {
+                         parse_line(line, ref dict);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("failed to parse line #" + count.ToString());
+                        Console.WriteLine(e);
+                    }
+                }
             }
         }
     }

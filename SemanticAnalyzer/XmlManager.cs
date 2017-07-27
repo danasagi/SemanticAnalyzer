@@ -77,7 +77,7 @@ namespace SemanticAnalyzer
                     read.Close();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //Log exception here
             }
